@@ -1,0 +1,29 @@
+    // Black (Top)
+    this.board[0][0] = { type: 'laser', color: 'b', rotation: 180 };
+    this.board[0][4] = { type: 'defender', color: 'b', rotation: 180 };
+    this.board[0][5] = { type: 'king', color: 'b', rotation: 180 };
+    this.board[0][6] = { type: 'defender', color: 'b', rotation: 180 };
+    this.board[0][7] = { type: 'deflector', color: 'b', rotation: 180 };
+    this.board[1][2] = { type: 'deflector', color: 'b', rotation: 270 };
+    this.board[3][0] = { type: 'deflector', color: 'b', rotation: 90 };
+    this.board[3][4] = { type: 'switch', color: 'b', rotation: 90 };
+    this.board[3][5] = { type: 'switch', color: 'b', rotation: 0 };
+    this.board[3][7] = { type: 'deflector', color: 'b', rotation: 180 };
+    this.board[4][0] = { type: 'deflector', color: 'b', rotation: 180 };
+    this.board[4][7] = { type: 'deflector', color: 'b', rotation: 90 };
+    this.board[5][6] = { type: 'deflector', color: 'b', rotation: 180 };
+
+    // White (Bottom)
+    this.board[2][3] = { type: 'deflector', color: 'w', rotation: 0 };
+    this.board[3][2] = { type: 'deflector', color: 'w', rotation: 270 };
+    this.board[3][9] = { type: 'deflector', color: 'w', rotation: 0 };
+    this.board[4][2] = { type: 'deflector', color: 'w', rotation: 0 };
+    this.board[4][4] = { type: 'switch', color: 'w', rotation: 180 };
+    this.board[4][5] = { type: 'switch', color: 'w', rotation: 270 };
+    this.board[4][9] = { type: 'deflector', color: 'w', rotation: 270 };
+    this.board[6][7] = { type: 'deflector', color: 'w', rotation: 90 };
+    this.board[7][2] = { type: 'deflector', color: 'w', rotation: 0 };
+    this.board[7][3] = { type: 'defender', color: 'w', rotation: 0 };
+    this.board[7][4] = { type: 'king', color: 'w', rotation: 0 };
+    this.board[7][5] = { type: 'defender', color: 'w', rotation: 0 };
+    this.board[7][9] = { type: 'laser', color: 'w', rotation: 0 };

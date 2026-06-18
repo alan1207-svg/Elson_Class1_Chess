@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elson's Super Chess Game | Premium Chess</title>
+  <meta name="description" content="A premium web-based chess experience.">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Use chess.js for game logic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+</head>
+<body>
+  <div class="app-background"></div>
+  <div class="app-container">
+    <div class="glass-panel">
+      <header>
+        <div class="logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19h16"/><path d="M12 19v-4"/><path d="M8 15h8"/><path d="M12 15V9"/><path d="M10 9h4"/><path d="M12 9V5"/><path d="M10 5h4"/><path d="M12 5V3"/><path d="M9 3h6"/></svg>
+          <h1>Elson's Super Chess Game</h1>
+        </div>
+        <div class="turn-indicator" id="turn-indicator">
+          <span class="dot white-dot" id="turn-dot"></span> <span id="turn-text">White's Turn</span>
+        </div>
+      </header>
+      
+      <main class="game-area">
+        <div class="board-container">
+          <div id="chessboard" class="chessboard"></div>
+        </div>
+        
+        <aside class="sidebar">
+          <div class="score-box">
+            <h3>Match Score</h3>
+            <div class="score-display">
+              <div class="score-item">
+                <span class="score-label">White</span>
+                <span id="score-white" class="score-value">0</span>
+              </div>
+              <div class="score-divider">-</div>
+              <div class="score-item">
+                <span class="score-label">Black</span>
+                <span id="score-black" class="score-value">0</span>
+              </div>
+            </div>
+            <button id="reset-score-btn" class="btn text-btn">Reset Score</button>
+          </div>
+          
+          <div class="status-box">
+            <h3>Game Status</h3>
+            <p id="game-status" class="status-text">In Progress</p>
+          </div>
+          
+          <div class="history-box">
+            <h3>Move History</h3>
+            <div class="history-headers">
+              <span>#</span>
+              <span>White</span>
+              <span>Black</span>
+            </div>
+            <div id="move-history" class="move-history"></div>
+          </div>
+          
+          <div class="mode-box">
+            <h3>Game Mode</h3>
+            <select id="game-mode" class="mode-select">
+              <option value="pvp">Player vs Player</option>
+              <option value="pvc" selected>Player vs Computer</option>
+              <option value="laser-pvp">Laser Chess 🔫</option>
+            </select>
+            
+            <div class="toggle-container">
+              <label class="switch">
+                <input type="checkbox" id="bomb-mode-toggle">
+                <span class="slider round"></span>
+              </label>
+              <span class="bomb-label">Bomb Mode 💣</span>
+            </div>
+            
+            <div class="toggle-container">
+              <label class="switch">
+                <input type="checkbox" id="snowball-mode-toggle">
+                <span class="slider round snowball-slider"></span>
+              </label>
+              <span class="snowball-label">Snowball Mode ⛄</span>
+            </div>
+          </div>
+          
+          <div class="controls">
+            <button id="reset-btn" class="btn primary-btn">New Game</button>
+            <button id="undo-btn" class="btn secondary-btn">Undo Move</button>
+            <div id="rotate-controls" class="rotate-controls hidden">
+              <button id="rotate-left-btn" class="btn secondary-btn">Rotate Left ↺</button>
+              <button id="rotate-right-btn" class="btn secondary-btn">Rotate Right ↻</button>
+            </div>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <div id="game-over-modal" class="modal hidden">
+      <div class="modal-glass">
+        <h2 id="modal-title">Checkmate!</h2>
+        <p id="modal-message">White wins the game.</p>
+        <button id="modal-reset-btn" class="btn primary-btn">Play Again</button>
+      </div>
+    </div>
+  </div>
+  <script src="laser.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

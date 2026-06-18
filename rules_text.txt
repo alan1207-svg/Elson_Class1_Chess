@@ -1,0 +1,642 @@
+﻿
+!function(){"use strict";const t={adt_ei:{identityApiKey:"plainText",source:"url",type:"plaintext",priority:1},adt_eih:{identityApiKey:"sha256",source:"urlh",type:"hashed",priority:2},sh_kit:{identityApiKey:"sha256",source:"urlhck",type:"hashed",priority:3}},e=Object.keys(t);function i(t){return function(t){const e=t.match(/((?=([a-z0-9._!#$%+^&*()[\] i.searchParams.delete(t)),history.replaceState(null,"",i.toString())}(e,n)}()}();
+.adthrive-ad {
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: center;
+overflow-x: visible;
+clear: both;
+line-height: 0;
+}
+div[id^="cls-video-container"] {
+margin-top: 50px;
+}
+body.adthrive-device-desktop #ast-scroll-top {
+margin-bottom: 250px;
+}
+body.adthrive-device-tablet #ast-scroll-top {
+margin-bottom: 200px;
+}
+body.adthrive-device-phone #ast-scroll-top {
+margin-bottom: 30px;
+}
+html, body {
+overflow-x: clip !important;
+}
+body.parent-pageid-45 .adthrive-content,
+body.parent-pageid-44 .adthrive-content{
+grid-column: 1 / -1;
+}
+.adthrive-ad {
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: center;
+overflow-x: visible;
+clear: both;
+line-height: 0;
+}
+div[id^="cls-video-container"] {
+margin-top: 50px;
+}
+body.adthrive-device-desktop #ast-scroll-top {
+margin-bottom: 250px;
+}
+body.adthrive-device-tablet #ast-scroll-top {
+margin-bottom: 200px;
+}
+body.adthrive-device-phone #ast-scroll-top {
+margin-bottom: 30px;
+}
+html, body {
+overflow-x: clip !important;
+}
+body.parent-pageid-45 .adthrive-content,
+body.parent-pageid-44 .adthrive-content{
+grid-column: 1 / -1;
+}
+h1","id":4091005,"position":"beforebegin","saveVideoCloseState":false,"shuffle":false,"adPlayerTitle":"MY LATEST VIDEOS","mobileHeaderSelector":null,"playerId":"qWsvzTtz"},{"playlistId":"FmV35HY2","pageSelector":"","devices":["mobile","desktop"],"description":"","skip":0,"title":"Stationary related player - desktop and mobile","type":"stationaryRelated","enabled":true,"elementSelector":"","id":4091004,"position":"","saveVideoCloseState":false,"shuffle":false,"adPlayerTitle":"Stationary related player - desktop and mobile","playerId":"qWsvzTtz"}],"partners":{"theTradeDesk":true,"unruly":true,"mediaGrid":true,"undertone":true,"gumgum":true,"seedtag":true,"amx":true,"ozone":true,"pmp":false,"kargo":false,"stickyOutstream":{"desktop":{"enabled":true},"blockedPageSelectors":"","mobileLocation":"bottom-left","allowOnHomepage":true,"mobile":{"enabled":true},"saveVideoCloseState":false,"mobileHeaderSelector":"","allowForPageWithStickyPlayer":{"enabled":true}},"sharethrough":true,"blis":true,"tripleLift":true,"pubMatic":true,"criteo":true,"yahoossp":true,"nativo":true,"stackadapt":true,"yieldmo":true,"amazonUAM":false,"medianet":true,"rubicon":true,"appNexus":true,"rise":true,"openx":true,"indexExchange":true}}};
+(function(w, d) {
+w.adthrive = w.adthrive || {};
+w.adthrive.cmd = w.adthrive.cmd || [];
+w.adthrive.plugin = 'adthrive-ads-3.12.2';
+w.adthrive.host = 'ads.adthrive.com';
+w.adthrive.integration = 'plugin';
+var commitParam = (w.adthriveCLS && w.adthriveCLS.bucket !== 'prod' && w.adthriveCLS.branch) ? '&commit=' + w.adthriveCLS.branch : '';
+var s = d.createElement('script');
+s.async = true;
+s.referrerpolicy='no-referrer-when-downgrade';
+s.src = 'https://' + w.adthrive.host + '/sites/68af5aa63d57905d3afaeb2a/ads.min.js?referrer=' + w.encodeURIComponent(w.location.href) + commitParam + '&cb=' + (Math.floor(Math.random() * 100) + 1) + '';
+var n = d.getElementsByTagName('script')[0];
+n.parentNode.insertBefore(s, n);
+})(window, document);
+Khet 2.0 Rules û How to Play the Laser Chess Board Game
+{"@context":"https:\/\/schema.org\/","@type":"CreativeWork","dateModified":"2026-03-10T05:24:48-07:00","headline":"Official Khet Rules","description":"Khet 2.0 is a unique strategy game that blends elements of chess with lasers and mirrors. Instead of capturing pieces through traditional movement, players win by firing a laser across the board and striking their opponent\u2019s Pharaoh. The laser beam reflects off mirrored pieces, creating surprising angles and clever tactical opportunities. Although the game might look complex at first, the","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/officialgamerules.org\/game-rules\/khet-rules\/"},"author":{"@type":"Person","name":"The Official Game Rules Team","url":"https:\/\/officialgamerules.org\/author\/calmckinley\/","description":""}}
+.adthrive-ad {
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: center;
+overflow-x: visible;
+clear: both;
+line-height: 0;
+}
+div[id^="cls-video-container"] {
+margin-top: 50px;
+}
+body.adthrive-device-desktop #ast-scroll-top {
+margin-bottom: 250px;
+}
+body.adthrive-device-tablet #ast-scroll-top {
+margin-bottom: 200px;
+}
+body.adthrive-device-phone #ast-scroll-top {
+margin-bottom: 30px;
+}
+html, body {
+overflow-x: clip !important;
+}
+body.parent-pageid-45 .adthrive-content,
+body.parent-pageid-44 .adthrive-content{
+grid-column: 1 / -1;
+}
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+* {-js-display: flex;display: flex;justify-content: left;flex-wrap: wrap;align-items: center;}label.ast-search--posttype-heading {text-transform: capitalize;padding: 16px 16px 10px;color: var(--ast-global-color-2);font-weight: 500;}label.ast-search--no-results-heading {padding: 14px 20px;}a.ast-search-item {position: relative;padding: 14px 20px;font-size: 0.9em;}a.ast-search-item:hover {background-color: #f9fafb;}a.ast-search-page-link {justify-content: center;justify-content: center;border: 1px solid var(--ast-border-color);margin-top: 10px;}.ast-search-item + .ast-search--posttype-heading {border-top: 1px solid var(--ast-border-color);margin-top: 10px;}.ast-header-search .ast-search-menu-icon .search-field{width:1000px;}@media (max-width:921px){.ast-header-search .ast-search-menu-icon .search-field{width:100%;}}@media (max-width:544px){.ast-header-search .ast-search-menu-icon .search-field{width:100%;}}
+/*# sourceURL=astra-theme-css-inline-css */
+img.wp-smiley, img.emoji {
+display: inline !important;
+border: none !important;
+box-shadow: none !important;
+height: 1em !important;
+width: 1em !important;
+margin: 0 0.07em !important;
+vertical-align: -0.1em !important;
+background: none !important;
+padding: 0 !important;
+}
+/*# sourceURL=wp-emoji-styles-inline-css */
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+.wp-block-button__link:not(.has-background)){background-color:initial;background-image:none}
+/*# sourceURL=https://officialgamerules.org/wp-includes/blocks/button/style.min.css */
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://officialgamerules.org/wp-includes/blocks/heading/style.min.css */
+figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-image.is-style-circle-mask img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,   ');mask-image:url('data:image/svg+xml;utf8,   ');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}.wp-lightbox-container{display:flex;flex-direction:column;position:relative}.wp-lightbox-container img{cursor:zoom-in}.wp-lightbox-container img:hover+button{opacity:1}.wp-lightbox-container button{align-items:center;backdrop-filter:blur(16px) saturate(180%);background-color:#5a5a5a40;border:none;border-radius:4px;cursor:zoom-in;display:flex;height:20px;justify-content:center;opacity:0;padding:0;position:absolute;right:16px;text-align:center;top:16px;width:20px;z-index:100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3px auto -webkit-focus-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-lightbox-container button:focus{opacity:1}.wp-lightbox-container button:focus,.wp-lightbox-container button:hover,.wp-lightbox-container button:not(:hover):not(:active):not(.has-background){background-color:#5a5a5a40;border:none}.wp-lightbox-overlay{box-sizing:border-box;cursor:zoom-out;height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100%;z-index:100000}.wp-lightbox-overlay .wp-lightbox-close-button{align-items:center;cursor:pointer;display:flex;font-family:inherit;gap:8px;justify-content:center;line-height:1;min-height:40px;min-width:40px;padding:0 4px;position:absolute;right:calc(env(safe-area-inset-right) + 16px);top:calc(env(safe-area-inset-top) + 16px);z-index:5000000}.wp-lightbox-overlay .wp-lightbox-close-button:focus,.wp-lightbox-overlay .wp-lightbox-close-button:hover,.wp-lightbox-overlay .wp-lightbox-close-button:not(:hover):not(:active):not(.has-background){background:none;border:none}.wp-lightbox-overlay .wp-lightbox-close-button:has(.wp-lightbox-close-text:not([hidden])) .wp-lightbox-close-icon svg{height:1em;width:1em}.wp-lightbox-overlay .wp-lightbox-close-icon svg{display:block}.wp-lightbox-overlay .wp-lightbox-navigation-button-next,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{align-items:center;bottom:16px;cursor:pointer;display:flex;font-family:inherit;gap:4px;justify-content:center;line-height:1;min-height:40px;min-width:40px;padding:0 8px;position:absolute;z-index:2000002}.wp-lightbox-overlay .wp-lightbox-navigation-button-next[hidden],.wp-lightbox-overlay .wp-lightbox-navigation-button-prev[hidden]{display:none}@media (min-width:960px){.wp-lightbox-overlay .wp-lightbox-navigation-button-next,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{bottom:50%;transform:translateY(-50%)}}.wp-lightbox-overlay .wp-lightbox-navigation-button-next:focus,.wp-lightbox-overlay .wp-lightbox-navigation-button-next:hover,.wp-lightbox-overlay .wp-lightbox-navigation-button-next:not(:hover):not(:active):not(.has-background),.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:focus,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:hover,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:not(:hover):not(:active):not(.has-background){background:none;border:none;padding:0 8px}.wp-lightbox-overlay .wp-lightbox-navigation-button-next:has(.wp-lightbox-navigation-text:not([hidden])) .wp-lightbox-navigation-icon svg,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:has(.wp-lightbox-navigation-text:not([hidden])) .wp-lightbox-navigation-icon svg{display:block;height:1.5em;width:1.5em}.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{left:calc(env(safe-area-inset-left) + 16px)}.wp-lightbox-overlay .wp-lightbox-navigation-button-next{right:calc(env(safe-area-inset-right) + 16px)}.wp-lightbox-overlay .wp-lightbox-navigation-icon svg{vertical-align:middle}.wp-lightbox-overlay .lightbox-image-container{height:var(--wp--lightbox-container-height);left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%);transform-origin:top left;width:var(--wp--lightbox-container-width);z-index:2000001}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;height:100%;justify-content:center;margin:0;position:relative;transform-origin:0 0;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image img{height:var(--wp--lightbox-image-height);min-height:var(--wp--lightbox-image-height);min-width:var(--wp--lightbox-image-width);width:var(--wp--lightbox-image-width)}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.active{visibility:visible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation:turn-off-visibility .25s both}.wp-lightbox-overlay.zoom.active{animation:none;opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .lightbox-image-container{animation:lightbox-zoom-in .4s}.wp-lightbox-overlay.zoom.active .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active){animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container{animation:lightbox-zoom-out .4s}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .scrim{animation:turn-off-visibility .4s forwards}}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))}to{transform:translate(-50%,-50%) scale(1)}}@keyframes lightbox-zoom-out{0%{transform:translate(-50%,-50%) scale(1);visibility:visible}99%{visibility:visible}to{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));visibility:hidden}}
+/*# sourceURL=https://officialgamerules.org/wp-includes/blocks/image/style.min.css */
+.wp-block-latest-posts{box-sizing:border-box}.wp-block-latest-posts.alignleft{margin-right:2em}.wp-block-latest-posts.alignright{margin-left:2em}.wp-block-latest-posts.wp-block-latest-posts__list{list-style:none}.wp-block-latest-posts.wp-block-latest-posts__list li{clear:both;overflow-wrap:break-word}.wp-block-latest-posts.is-grid{display:flex;flex-wrap:wrap}.wp-block-latest-posts.is-grid li{margin:0 1.25em 1.25em 0;width:100%}@media (min-width:600px){.wp-block-latest-posts.columns-2 li{width:calc(50% - .625em)}.wp-block-latest-posts.columns-2 li:nth-child(2n){margin-right:0}.wp-block-latest-posts.columns-3 li{width:calc(33.33333% - .83333em)}.wp-block-latest-posts.columns-3 li:nth-child(3n){margin-right:0}.wp-block-latest-posts.columns-4 li{width:calc(25% - .9375em)}.wp-block-latest-posts.columns-4 li:nth-child(4n){margin-right:0}.wp-block-latest-posts.columns-5 li{width:calc(20% - 1em)}.wp-block-latest-posts.columns-5 li:nth-child(5n){margin-right:0}.wp-block-latest-posts.columns-6 li{width:calc(16.66667% - 1.04167em)}.wp-block-latest-posts.columns-6 li:nth-child(6n){margin-right:0}}:root :where(.wp-block-latest-posts.is-grid){padding:0}:root :where(.wp-block-latest-posts.wp-block-latest-posts__list){padding-left:0}.wp-block-latest-posts__post-author,.wp-block-latest-posts__post-date{display:block;font-size:.8125em}.wp-block-latest-posts__post-excerpt,.wp-block-latest-posts__post-full-content{margin-bottom:1em;margin-top:.5em}.wp-block-latest-posts__featured-image a{display:inline-block}.wp-block-latest-posts__featured-image img{height:auto;max-width:100%;width:auto}.wp-block-latest-posts__featured-image.alignleft{float:left;margin-right:1em}.wp-block-latest-posts__featured-image.alignright{float:right;margin-left:1em}.wp-block-latest-posts__featured-image.aligncenter{margin-bottom:1em;text-align:center}
+/*# sourceURL=https://officialgamerules.org/wp-includes/blocks/latest-posts/style.min.css */
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://officialgamerules.org/wp-includes/blocks/list/style.min.css */
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://officialgamerules.org/wp-includes/blocks/paragraph/style.min.css */
+.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-buttons[style*=text-decoration] .wp-block-button,.wp-block-buttons[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons .wp-block-button__link{width:100%}.wp-block-button.aligncenter{text-align:center}
+/*# sourceURL=https://officialgamerules.org/wp-includes/blocks/buttons/style.min.css */
+[data-type="core/embed"] .wp-block-embed__wrapper{min-width:280px}.wp-block-cover .wp-block-embed{min-height:240px;min-width:320px}.wp-block-group.is-layout-flex .wp-block-embed{flex:1 1 0%;min-width:0}.wp-block-embed{overflow-wrap:break-word}.wp-block-embed :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-embed iframe{max-width:100%}.wp-block-embed__wrapper{position:relative}.wp-embed-responsive .wp-has-aspect-ratio .wp-block-embed__wrapper:before{content:"";display:block;padding-top:50%}.wp-embed-responsive .wp-has-aspect-ratio iframe{bottom:0;height:100%;left:0;position:absolute;right:0;top:0;width:100%}.wp-embed-responsive .wp-embed-aspect-21-9 .wp-block-embed__wrapper:before{padding-top:42.85%}.wp-embed-responsive .wp-embed-aspect-18-9 .wp-block-embed__wrapper:before{padding-top:50%}.wp-embed-responsive .wp-embed-aspect-16-9 .wp-block-embed__wrapper:before{padding-top:56.25%}.wp-embed-responsive .wp-embed-aspect-4-3 .wp-block-embed__wrapper:before{padding-top:75%}.wp-embed-responsive .wp-embed-aspect-1-1 .wp-block-embed__wrapper:before{padding-top:100%}.wp-embed-responsive .wp-embed-aspect-9-16 .wp-block-embed__wrapper:before{padding-top:177.77%}.wp-embed-responsive .wp-embed-aspect-1-2 .wp-block-embed__wrapper:before{padding-top:200%}
+/*# sourceURL=https://officialgamerules.org/wp-includes/blocks/embed/style.min.css */
+.wp-block-group{box-sizing:border-box}:where(.wp-block-group.wp-block-group-is-layout-constrained){position:relative}
+/*# sourceURL=https://officialgamerules.org/wp-includes/blocks/group/style.min.css */
+@charset "UTF-8";.wp-block-separator{border:none;border-top:2px solid}:root :where(.wp-block-separator.is-style-dots){height:auto;line-height:1;text-align:center}:root :where(.wp-block-separator.is-style-dots):before{color:currentColor;content:"╖╖╖";font-family:serif;font-size:1.5em;letter-spacing:2em;padding-left:2em}.wp-block-separator.is-style-dots{background:none!important;border:none!important}
+/*# sourceURL=https://officialgamerules.org/wp-includes/blocks/separator/style.min.css */
+{ delete window._googlesitekit.throttledEvents[ key ]; }, 5 ); gtag( "event", name, { ...data, event_source: "site-kit" } ); };
+//# sourceURL=google_gtagjs-js-after
+:is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: none;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-ast-global-color-0-color{color: var(--wp--preset--color--ast-global-color-0) !important;}.has-ast-global-color-1-color{color: var(--wp--preset--color--ast-global-color-1) !important;}.has-ast-global-color-2-color{color: var(--wp--preset--color--ast-global-color-2) !important;}.has-ast-global-color-3-color{color: var(--wp--preset--color--ast-global-color-3) !important;}.has-ast-global-color-4-color{color: var(--wp--preset--color--ast-global-color-4) !important;}.has-ast-global-color-5-color{color: var(--wp--preset--color--ast-global-color-5) !important;}.has-ast-global-color-6-color{color: var(--wp--preset--color--ast-global-color-6) !important;}.has-ast-global-color-7-color{color: var(--wp--preset--color--ast-global-color-7) !important;}.has-ast-global-color-8-color{color: var(--wp--preset--color--ast-global-color-8) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-ast-global-color-0-background-color{background-color: var(--wp--preset--color--ast-global-color-0) !important;}.has-ast-global-color-1-background-color{background-color: var(--wp--preset--color--ast-global-color-1) !important;}.has-ast-global-color-2-background-color{background-color: var(--wp--preset--color--ast-global-color-2) !important;}.has-ast-global-color-3-background-color{background-color: var(--wp--preset--color--ast-global-color-3) !important;}.has-ast-global-color-4-background-color{background-color: var(--wp--preset--color--ast-global-color-4) !important;}.has-ast-global-color-5-background-color{background-color: var(--wp--preset--color--ast-global-color-5) !important;}.has-ast-global-color-6-background-color{background-color: var(--wp--preset--color--ast-global-color-6) !important;}.has-ast-global-color-7-background-color{background-color: var(--wp--preset--color--ast-global-color-7) !important;}.has-ast-global-color-8-background-color{background-color: var(--wp--preset--color--ast-global-color-8) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-ast-global-color-0-border-color{border-color: var(--wp--preset--color--ast-global-color-0) !important;}.has-ast-global-color-1-border-color{border-color: var(--wp--preset--color--ast-global-color-1) !important;}.has-ast-global-color-2-border-color{border-color: var(--wp--preset--color--ast-global-color-2) !important;}.has-ast-global-color-3-border-color{border-color: var(--wp--preset--color--ast-global-color-3) !important;}.has-ast-global-color-4-border-color{border-color: var(--wp--preset--color--ast-global-color-4) !important;}.has-ast-global-color-5-border-color{border-color: var(--wp--preset--color--ast-global-color-5) !important;}.has-ast-global-color-6-border-color{border-color: var(--wp--preset--color--ast-global-color-6) !important;}.has-ast-global-color-7-border-color{border-color: var(--wp--preset--color--ast-global-color-7) !important;}.has-ast-global-color-8-border-color{border-color: var(--wp--preset--color--ast-global-color-8) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+.post-modified-info {
+font-size: 0.85em;
+color: #888;
+line-height: 1.4;
+}
+.post-modified-info a {
+color: #888;
+font-weight: 200;
+text-decoration: none;
+}
+.post-modified-info a:hover {
+color: #666;
+text-decoration: underline;
+}
+[{"@context":"https:\/\/schema.org\/","@type":"FAQPage","@id":"https:\/\/officialgamerules.org\/game-rules\/khet-rules\/#FAQPage","mainEntity":[{"@type":"Question","name":"How long does a game of Khet take?","acceptedAnswer":{"@type":"Answer","text":"Most games last &lt;strong&gt;15\u201330 minutes&lt;\/strong&gt;, depending on player experience and the starting configuration."}},{"@type":"Question","name":"How many players can play Khet?","acceptedAnswer":{"@type":"Answer","text":"Khet is designed for &lt;strong&gt;two players&lt;\/strong&gt;."}},{"@type":"Question","name":"Can the Sphinx be destroyed?","acceptedAnswer":{"@type":"Answer","text":"No. The &lt;strong&gt;Sphinx cannot be eliminated&lt;\/strong&gt; and always remains on its starting corner square."}},{"@type":"Question","name":"Can you test the laser before finishing your move?","acceptedAnswer":{"@type":"Answer","text":"No. Players must complete their move before firing the laser."}},{"@type":"Question","name":"Can you move your Pharaoh?","acceptedAnswer":{"@type":"Answer","text":"Yes. The Pharaoh moves like any other piece, but doing so can be risky."}},{"@type":"Question","name":"Can the laser bounce indefinitely?","acceptedAnswer":{"@type":"Answer","text":"No. The laser continues until it hits a piece or leaves the board."}}]},
+{"@context":"https:\/\/schema.org\/","@graph":[{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/officialgamerules.org\/#home","name":"Home","url":"https:\/\/officialgamerules.org\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/officialgamerules.org\/#card-games-a-z","name":"Card Games A-Z","url":"https:\/\/officialgamerules.org\/card-games\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/officialgamerules.org\/#all-time-best-card-games","name":"All-Time Best Card Games","url":"https:\/\/officialgamerules.org\/all-time-best-card-games\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/officialgamerules.org\/#family-card-games","name":"Family Card Games","url":"https:\/\/officialgamerules.org\/card-games\/family-card-games\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/officialgamerules.org\/#casino-card-games","name":"Casino Card Games","url":"https:\/\/officialgamerules.org\/card-games\/casino-card-games\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/officialgamerules.org\/#strategy-card-games","name":"Strategy Card Games","url":"https:\/\/officialgamerules.org\/card-games\/strategy-card-games\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/officialgamerules.org\/#party-card-games","name":"Party Card Games","url":"https:\/\/officialgamerules.org\/card-games\/party-card-games\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/officialgamerules.org\/#board-games-a-z","name":"Board Games A-Z","url":"https:\/\/officialgamerules.org\/board-games\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/officialgamerules.org\/#all-time-best-board-games","name":"All-Time Best Board Games","url":"https:\/\/officialgamerules.org\/all-time-best-board-games\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/officialgamerules.org\/#strategy-board-games","name":"Strategy Board Games","url":"https:\/\/officialgamerules.org\/board-games\/strategy-board-games\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/officialgamerules.org\/#family-board-games","name":"Family Board Games","url":"https:\/\/officialgamerules.org\/board-games\/family-board-games\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/officialgamerules.org\/#party-board-games","name":"Party Board Games","url":"https:\/\/officialgamerules.org\/board-games\/party-board-games\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/officialgamerules.org\/#dice-games","name":"Dice Games","url":"https:\/\/officialgamerules.org\/board-games\/dice-games\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/officialgamerules.org\/#outdoor-games","name":"Outdoor Games","url":"https:\/\/officialgamerules.org\/outdoor-games\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/officialgamerules.org\/#about","name":"About","url":"https:\/\/officialgamerules.org\/about-us\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/officialgamerules.org\/#contact","name":"Contact","url":"https:\/\/officialgamerules.org\/contact\/"}]},
+{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","@id":"https:\/\/officialgamerules.org\/game-rules\/khet-rules\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/officialgamerules.org","name":"Official Game Rules"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/officialgamerules.org\/game-rules-archive\/","name":"Game Rules"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/officialgamerules.org\/category\/board-games\/","name":"Board Games"}},{"@type":"ListItem","position":4,"item":{"@id":"https:\/\/officialgamerules.org\/game-rules\/khet-rules\/","name":"Khet 2.0 Rules \u2013 How to Play the Laser Chess Board Game"}}]}]
+window.addEventListener('DOMContentLoaded', function() {jQuery(document).ready(function () {
+jQuery("form.search-form input[type='search']").attr("placeholder", "Search Game Rules...");
+});});
+( function( w, d, s, l, i ) {
+w[l] = w[l] || [];
+w[l].push( {'gtm.start': new Date().getTime(), event: 'gtm.js'} );
+var f = d.getElementsByTagName( s )[0],
+j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+j.async = true;
+j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+f.parentNode.insertBefore( j, f );
+} )( window, document, 'script', 'dataLayer', 'GTM-NM5JL22F' );
+@-webkit-keyframes bgslide{from{background-position-x:0}to{background-position-x:-200%}}@keyframes bgslide{from{background-position-x:0}to{background-position-x:-200%}}.wpp-widget-block-placeholder,.wpp-shortcode-placeholder{margin:0 auto;width:60px;height:3px;background:#dd3737;background:linear-gradient(90deg,#dd3737 0%,#571313 10%,#dd3737 100%);background-size:200% auto;border-radius:3px;-webkit-animation:bgslide 1s infinite linear;animation:bgslide 1s infinite linear}
+{var r=t(),i=m(),a=function(e){return i(e)?e:void 0};n.exports=function(e,t){return arguments.length 0&&l[0] {var i=y(),a=n(),o=t().String;r.exports=!!Object.getOwnPropertySymbols&&!a(function(){var e=Symbol(`symbol detection`);return!o(e)||!(Object(e)instanceof Symbol)||!Symbol.sham&&i&&i {var n=I(),r=Math.max,i=Math.min;t.exports=function(e,t){var a=n(e);return a {var n=D(),r=L(),i=j(),a=N();t.exports=function(e,t,o){for(var s=r(t),c=a.f,l=i.f,u=0;u {var t;return((t=i.purpose)==null||(t=t.consents)==null?void 0:t[e])===!0});return a&&o}catch(e){return e instanceof Error&&e.message,!1}});return function(t,n){return e.apply(this,arguments)}}();function We(e,t){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(e);t&&(r=r.filter(function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable})),n.push.apply(n,r)}return n}function Ge(e){for(var t=1;t {let e=`unknown`;return typeof Intl {je.error(`ComscoreTrackerComponent`,`init`,`Error during Comscore beacon.js import: `,e)})})()})();  {var r=n(),i=h(),a=function(e){return i(e)?e:void 0};t.exports=function(e,t){return arguments.length 0&&l[0] {var i=b(),a=r(),o=n().String;t.exports=!!Object.getOwnPropertySymbols&&!a(function(){var e=Symbol(`symbol detection`);return!o(e)||!(Object(e)instanceof Symbol)||!Symbol.sham&&i&&i {var n=K(),r=Math.max,i=Math.min;t.exports=function(e,t){var a=n(e);return a {var n=k(),r=q(),i=P(),a=I();t.exports=function(e,t,o){for(var s=r(t),c=a.f,l=i.f,u=0;u e.replace(/["']/g,``))}extractAPICall(e,t){let n=RegExp(t+`\\((.*?)\\)`,`g`),r=e.match(n);return r===null?!1:r[0]}disableAllAds(e){(!e||Y(e))&&(this.all=!0,this.reasons.add(`all_page`))}disableContentAds(e){(!e||Y(e))&&(this.content=!0,this.recipe=!0,this.locations.add(J.Content),this.locations.add(J.Recipe),this.reasons.add(`content_plugin`))}disablePlaylistPlayers(e){(!e||Y(e))&&(this.video=!0,this.locations.add(`Video`),this.reasons.add(`video_page`))}urlHasEmail(e){return e?/([A-Z0-9._%+-]+(@|%(25)*40)[A-Z0-9.-]+\.[A-Z]{2,})/i.exec(e)!==null:!1}};let $=Ce();return $&&($.disableAds=new Q(window.adthrive)),e.ClsDisableAds=Q,e})({});  @media (min-width: 1025px){body .uag-hide-desktop.uagb-google-map__wrap,body .uag-hide-desktop{display:none !important}}@media (min-width: 768px) and (max-width: 1024px){body .uag-hide-tab.uagb-google-map__wrap,body .uag-hide-tab{display:none !important}}@media (max-width: 767px){body .uag-hide-mob.uagb-google-map__wrap,body .uag-hide-mob{display:none !important}}
+.rll-youtube-player, [data-lazy-src]{display:none !important;}
+img {
+position: absolute;
+inset: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+}
+/* OVERLAY */
+.ogr-hero-overlay {
+position: absolute;
+inset: 0;
+background: rgba(22, 24, 27, 0.62);
+z-index: 1;
+}
+/* CONTENT */
+.ogr-hero-content {
+position: relative;
+z-index: 2;
+max-width: 860px;
+padding: 0 24px;
+color: #ffffff;
+}
+/* FORCE WHITE */
+.ogr-hero-content h1,
+.ogr-hero-content p {
+color: #ffffff;
+}
+/* H1 û JOURNEY MATCH */
+.ogr-hero-content h1 {
+font-size: clamp(2.25rem, 4.5vw, 3.125rem);
+font-weight: 300;
+line-height: 1.25;
+margin-bottom: 20px;
+letter-spacing: -0.02em;
+}
+/* PARAGRAPH */
+.ogr-hero-content p {
+font-size: 1.0rem;
+line-height: 1.65;
+margin-bottom: 32px;
+max-width: 720px;
+margin-left: auto;
+margin-right: auto;
+opacity: 0.95;
+}
+/* BUTTON */
+.ogr-hero-btn {
+display: inline-block;
+padding: 14px 36px;
+background: #f15a29;
+color: #ffffff;
+text-transform: uppercase;
+font-weight: 500;
+font-size: 0.775rem;
+letter-spacing: 0.08em;
+border-radius: 4px;
+text-decoration: none; !important;
+transition: background 0.2s ease, transform 0.15s ease;
+}
+.ogr-hero-btn,
+.ogr-hero-btn:link,
+.ogr-hero-btn:visited,
+.ogr-hero-btn:hover,
+.ogr-hero-btn:active {
+text-decoration: none !important;
+}
+/* MOBILE */
+@media (max-width: 768px) {
+.ogr-hero {
+}
+img {min-height: 250px;min-width: 250px;}
+/*# sourceURL=yarpp-thumbnails-inline-css */
+.wp-elements-8898385ca19106cc7743af1b047ec25a a:where(:not(.wp-element-button)){color:var(--wp--preset--color--ast-global-color-1);}.wp-container-1{top:calc(0px + var(--wp-admin--admin-bar--position-offset, 0px));position:sticky;z-index:10;}.wp-elements-045ce62d125fd3e6470e386e96c55ec5 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--ast-global-color-4);}
+/*# sourceURL=core-block-supports-inline-css */
+const rocket_pairs = []; const rocket_excluded_pairs = [];
+0&&w<=921){document.body.classList.add('ast-header-break-point');document.body.classList.remove('ast-desktop');}})();
+document.addEventListener('DOMContentLoaded', function() {
+// Select all YARPP related post titles
+const postTitles = document.querySelectorAll('.yarpp-thumbnail-title');
+postTitles.forEach(function(title) {
+// Replace the words "Official" and "Rules" from the title text
+title.innerHTML = title.innerHTML.replace(/\bOfficial\b|\bRules\b/g, '');
+});
+});
+Skip to content
+Official Game Rules
+HOME
+BOARD GAMES
+ALL-TIME FAVORITES
+STRATEGY BOARD GAMES
+FAMILY BOARD GAMES
+PARTY BOARD GAMES
+DICE GAMES
+DOMINO GAMES
+CARD GAMES
+ALL-TIME FAVORITES
+STRATEGY CARD GAMES
+FAMILY CARD GAMES
+PARTY CARD GAMES
+CASINO CARD GAMES
+OUTDOOR GAMES
+RESOURCES
+TRENDING GAMES
+BLOG
+ABOUT US
+CONTACT
+Search for:
+Search
+Search
+Official Game Rules
+Search for:
+Search
+Search
+Home
+Card Games A-Z
+All-Time Best Card Games
+Family Card Games
+Casino Card Games
+Strategy Card Games
+Party Card Games
+Board Games A-Z
+All-Time Best Board Games
+Strategy Board Games
+Family Board Games
+Party Board Games
+Dice Games
+Outdoor Games
+About
+Contact
+Sign up
+Sign up
+Official Khet Rules
+Last Updated on March 10, 2026 by  The Official Game Rules Team
+Khet 2.0 is a unique strategy game that blends elements of chess with lasers and mirrors. Instead of capturing pieces through traditional movement, players win by firing a laser across the board and striking their opponentÆs  Pharaoh . The laser beam reflects off mirrored pieces, creating surprising angles and clever tactical opportunities.
+Although the game might look complex at first, the rules are actually straightforward. Every piece moves in a similar way, and once you understand how the laser interacts with the mirrored surfaces, youÆll be planning strategic shots in no time.
+The goal is simple:  use mirrors and positioning to direct your laser beam toward the opponentÆs Pharaoh while protecting your own.
+buy now!
+This post contains affiliate links. For more information, see our disclosures&nbsp; here.
+How to Play Khet 2.0
+Game Pieces
+Khet features five main types of pieces, each with a specific purpose in the laser battlefield:
+Pharaoh  û Your most important piece. If it gets hit by the laser, you lose.
+Pyramid  û Reflects laser beams using its mirrored sides.
+Scarab  û A special piece that can swap positions with certain other pieces.
+Anubis  û A defensive piece that can block lasers from the front.
+Sphinx  û Holds the laser emitter and fires the beam.
+Each player controls a set of pieces and a  Sphinx  located in their corner of the board.
+Starting the Game
+Unlike many classic board games,  Khet 2.0  doesnÆt have a single fixed starting setup. Instead, the game includes several tested starting configurations that create different tactical experiences.
+The most common setups are:
+Classic  û Recommended for beginners
+Dynasty  û Offers deeper tactical play
+Imhotep  û A more advanced configuration
+If youÆre new to the game, begin with the  Classic setup . After you gain experience, try the other arrangements or create your own custom setups.
+Silver always takes the  first turn , and players alternate turns for the rest of the game.
+Objective of the Game
+The objective in Khet is to  hit your opponentÆs Pharaoh with your laser beam .
+To do this, players move and rotate mirrored pieces so the laser beam bounces across the board toward the opponentÆs Pharaoh. If your own Pharaoh gets hit, you lose immediately.
+Turn Structure
+On each turn, a player performs  one action , then fires their laser.
+A player may choose  one of the following actions :
+Move one piece
+Rotate one piece
+Rotate the Sphinx (instead of moving a piece)
+After completing the action, the player fires the laser.
+Once you remove your hand from the piece you moved or rotated, the move is final and the laser must be fired.
+Moving Pieces
+All pieces in Khet move in the same basic way.
+A piece may move  one square in any direction , including diagonally.
+However, there are some restrictions:
+A piece  cannot move into an occupied square .
+A piece  cannot both move and rotate on the same turn .
+A piece may rotate  only 90 degrees per turn .
+Even the  Pharaoh  can move like this, although doing so can be risky.
+Rotating Pieces
+Instead of moving a piece, players may rotate it.
+Rotating changes the orientation of its mirrors and therefore the direction the laser will reflect.
+Pieces may be rotated:
+90 degrees clockwise
+90 degrees counterclockwise
+You cannot rotate more than once during a turn.
+Rotating the Sphinx
+Each player controls a  Sphinx , which contains the laser.
+The Sphinx does not move around the board, but it  can rotate .
+On your turn, instead of moving a piece, you may rotate the Sphinx so the laser points:
+Down the  first row , or
+Down the  first column
+After rotating the Sphinx, you must immediately fire the laser.
+Board Restrictions
+Certain squares on the board are restricted to one color.
+Red pieces cannot enter squares marked with a silver Ankh symbol.
+Silver pieces cannot enter squares marked with a red Eye of Horus.
+These restricted spaces are usually located along the edges of the board.
+The ScarabÆs Special Ability
+The  Scarab  is a unique piece with special movement.
+Instead of capturing, the Scarab can  swap places  with certain adjacent pieces.
+A Scarab can exchange positions with:
+A  Pyramid
+An  Anubis
+This swap can happen regardless of color.
+However, Scarabs  cannot swap with Pharaohs or other Scarabs .
+When swapping positions,  neither piece rotates .
+Firing the Laser
+At the end of every turn, the player presses the Sphinx button to fire the laser.
+The beam travels across the board in straight lines along rows and columns. When it hits a mirrored surface, it reflects  exactly 90 degrees , either left or right depending on the mirrorÆs orientation.
+Players are  not allowed to test laser paths before completing their move .
+The laser fires  once per turn .
+What Happens When the Laser Hits a Piece
+Different pieces react differently when struck by the laser.
+Pyramid
+If the laser hits the  non-mirrored side  of a Pyramid, that piece is destroyed and removed from the board.
+If the beam hits a mirrored side, it reflects.
+Anubis
+The  front shield  of an Anubis blocks the laser.
+If the beam hits the  front , nothing happens and the turn ends.
+If the laser hits the  side or back , the Anubis is destroyed.
+Scarab
+Scarabs have mirrors on both sides.
+The laser always  reflects off a Scarab , so it cannot be destroyed.
+Pharaoh
+If a laser beam hits a Pharaoh, the game  ends immediately .
+The player whose Pharaoh was struck  loses the game .
+Even worse, if you accidentally hit  your own Pharaoh , you lose.
+Draw Rule
+If the same exact board position appears  three times during a game , the next player may declare a  draw .
+The repeated position must include:
+The same pieces
+In the same squares
+Facing the same directions
+Video Tutorial
+Strategy Tips
+Think About the Laser Path
+Before moving any piece, trace where the laser will travel after it fires. A small rotation can dramatically change the path of the beam.
+Protect Your Pharaoh
+Keep defensive pieces like  Anubis  positioned so the Pharaoh isnÆt directly exposed to laser shots.
+Use Scarabs Creatively
+Scarabs are excellent for disrupting your opponentÆs defenses. Swapping positions with key pieces can suddenly open laser paths.
+Rotate Instead of Moving
+Sometimes rotating a piece is more powerful than moving it. A well-placed mirror can redirect the laser across half the board.
+Watch for Self-Hits
+Because the laser fires after every turn, careless moves can cause your own beam to strike your Pharaoh.
+Always double-check before firing.
+FAQ
+How long does a game of Khet take?   Most games last  15û30 minutes , depending on player experience and the starting configuration.      How many players can play Khet?   Khet is designed for  two players .      Can the Sphinx be destroyed?   No. The  Sphinx cannot be eliminated  and always remains on its starting corner square.      Can you test the laser before finishing your move?   No. Players must complete their move before firing the laser.      Can you move your Pharaoh?   Yes. The Pharaoh moves like any other piece, but doing so can be risky.      Can the laser bounce indefinitely?   No. The laser continues until it hits a piece or leaves the board.
+Conclusion
+Khet 2.0 delivers a fast-paced strategy experience that combines traditional board game tactics with the excitement of laser reflections. With simple movement rules and deep tactical possibilities, every move can dramatically change the battlefield.
+As you gain experience, youÆll learn to predict complex laser paths, set traps for your opponent, and design creative starting layouts. Whether you enjoy chess-style thinking or innovative board game mechanics,  Khet offers a unique challenge that rewards clever planning and careful positioning.
+Browse Related Games!
+Official Gaia Project Rules
+Official The Lord of The Rings: Duel for Middle-Earth Rules
+Official Magnetic Chess Game with Stones Rules
+Official The Night Cage Rules
+Official Bamboo Rules
+Official Mancala Rules
+Official Santorini Rules
+Official Root Rules
+Official Rajas of The Ganges Rules
+Official Panda Royale Rules
+Official Mycelia Rules
+Official Dungeons, Dice &amp; Danger Rules
+Leave a Reply   Cancel reply    You must be  logged in  to post a comment.
+Recent Posts
+Inside the Biggest Casino Heists Ever Attempted
+How Casinos Catch Card Counters: What Really Happens Behind the Scenes
+Beginners Guide to Blackjack: How to Play, Rules Explained Simply, Strategy Tips, and Common Mistakes
+How Much Money Casinos Make Every Day: The Massive Business Behind Gambling
+How to Play Blackjack Online for Beginners: A Complete Guide
+Trending Games
+.info-icon {
+display: inline-block;
+width: 20px;
+height: 20px;
+background-color: #cacaca;
+color: #fff;
+border-radius: 50%;
+text-align: center;
+font-weight: bold;
+cursor: pointer;
+font-size: 14px;
+line-height: 20px;
+transition: background-color 0.2s;
+}
+.info-icon:hover {
+background-color: #ea5332;
+}
+.info-text {
+display: none;
+font-size: 14px;
+color: #555;
+margin-top: -8px;
+}
+.info-wrapper-desktop {
+position: relative;
+display: inline-block;
+margin-bottom: 5px;
+}
+/* Hide on mobile */
+@media (max-width: 767px) {
+.info-wrapper-desktop {
+display: none !important;
+}
+}
+.info-icon {
+display: inline-block;
+width: 20px;
+height: 20px;
+background-color: #cacaca;
+color: #fff;
+border-radius: 50%;
+text-align: center;
+font-weight: bold;
+cursor: pointer;
+font-size: 14px;
+line-height: 20px;
+transition: background-color 0.2s;
+}
+.info-icon:hover {
+background-color: #ea5332;
+}
+.info-text {
+display: none;
+font-size: 14px;
+color: #555;
+margin-top: -8px;
+}
+.info-wrapper-desktop {
+position: relative;
+display: inline-block;
+margin-bottom: 5px;
+}
+/* Hide on mobile */
+@media (max-width: 767px) {
+.info-wrapper-desktop {
+display: none !important;
+}
+}
+i
+Disclaimer: Some of the links above are paid. We only feature games that weÆve carefully reviewed for relevance and quality, helping our users discover great experiences while supporting the creators.
+document.getElementById("infoToggleDesktop").addEventListener("click", function() {
+var infoText = document.getElementById("infoTextDesktop");
+infoText.style.display = (infoText.style.display === "block") ? "none" : "block";
+});
+Share This Page!
+Subscribe to Our Newsletter
+We'll send over a  free game rules e-book  as a thank you!
+(function() {
+window.mc4wp = window.mc4wp || {
+listeners: [],
+forms: {
+on: function(evt, cb) {
+window.mc4wp.listeners.push(
+{
+event   : evt,
+callback: cb
+}
+);
+}
+}
+}
+})();
+Email address:
+I have read and agree to the
+terms &amp; conditions
+Leave this field empty if you're human:
+About Us  At Official Game Rules, we believe that knowing the rules is essential to  enjoying any game. We carefully research each gameÆs original rulebook and transform it into a clear, easy-to-follow guide.
+Copyright &copy; 2026 Official Game Rules
+All Rights Reserved.
+Quick Links
+Home
+Board Games A-Z
+Card Games A-Z
+Outdoor Games
+Drinking Games
+Resources
+Terms and Conditions
+Privacy Policy
+Contact Info
+Email:  [email&#160;protected]
+Follow Us
+{var r=t(),i=m(),a=function(e){return i(e)?e:void 0};n.exports=function(e,t){return arguments.length 0&&l[0] {var i=y(),a=n(),o=t().String;r.exports=!!Object.getOwnPropertySymbols&&!a(function(){var e=Symbol(`symbol detection`);return!o(e)||!(Object(e)instanceof Symbol)||!Symbol.sham&&i&&i {var n=Ee(),r=Math.max,i=Math.min;t.exports=function(e,t){var a=n(e);return a {var n=w(),r=Fe(),i=T(),a=E();t.exports=function(e,t,o){for(var s=r(t),c=a.f,l=i.f,u=0;u {if(!e)return window.adthriveCLS&&(window.adthriveCLS.disabled=!0),!1;for(let n=0;n window.adthriveCLS;function O(e){"@babel/helpers - typeof";return O=typeof Symbol==`function`&&typeof Symbol.iterator==`symbol`?function(e){return typeof e}:function(e){return e&&typeof Symbol==`function`&&e.constructor===Symbol&&e!==Symbol.prototype?`symbol`:typeof e},O(e)}function Ge(e,t){if(O(e)!=`object`||!e)return e;var n=e[Symbol.toPrimitive];if(n!==void 0){var r=n.call(e,t||`default`);if(O(r)!=`object`)return r;throw TypeError(`@@toPrimitive must return a primitive value.`)}return(t===`string`?String:Number)(e)}function Ke(e){var t=Ge(e,`string`);return O(t)==`symbol`?t:t+``}function k(e,t,n){return(t=Ke(t))in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}var qe=class{constructor(){k(this,`_clsGlobalData`,We())}get enabled(){return!!this._clsGlobalData&&!!this._clsGlobalData.siteAds&&Ue(this._clsGlobalData.siteAds)}get error(){return!!(this._clsGlobalData&&this._clsGlobalData.error)}set siteAds(e){this._clsGlobalData.siteAds=e}get siteAds(){return this._clsGlobalData.siteAds}set disableAds(e){this._clsGlobalData.disableAds=e}get disableAds(){return this._clsGlobalData.disableAds}get enabledLocations(){return[D.Below_Post,D.Content,D.Recipe,D.Sidebar]}get injectedFromPlugin(){return this._clsGlobalData.injectedFromPlugin}set injectedFromPlugin(e){this._clsGlobalData.injectedFromPlugin=e}get injectedFromSiteAds(){return this._clsGlobalData.injectedFromSiteAds}set injectedFromSiteAds(e){this._clsGlobalData.injectedFromSiteAds=e}setInjectedSlots(e){this._clsGlobalData.injectedSlots=this._clsGlobalData.injectedSlots||[],this._clsGlobalData.injectedSlots.push(e)}get injectedSlots(){return this._clsGlobalData.injectedSlots}setInjectedVideoSlots(e){this._clsGlobalData.injectedVideoSlots=this._clsGlobalData.injectedVideoSlots||[],this._clsGlobalData.injectedVideoSlots.push(e)}get injectedVideoSlots(){return this._clsGlobalData.injectedVideoSlots}setExperiment(e,t,n=!1){this._clsGlobalData.experiments=this._clsGlobalData.experiments||{},this._clsGlobalData.siteExperiments=this._clsGlobalData.siteExperiments||{};let r=n?this._clsGlobalData.siteExperiments:this._clsGlobalData.experiments;r[e]=t}getExperiment(e,t=!1){let n=t?this._clsGlobalData.siteExperiments:this._clsGlobalData.experiments;return n&&n[e]}setWeightedChoiceExperiment(e,t,n=!1){this._clsGlobalData.experimentsWeightedChoice=this._clsGlobalData.experimentsWeightedChoice||{},this._clsGlobalData.siteExperimentsWeightedChoice=this._clsGlobalData.siteExperimentsWeightedChoice||{};let r=n?this._clsGlobalData.siteExperimentsWeightedChoice:this._clsGlobalData.experimentsWeightedChoice;r[e]=t}getWeightedChoiceExperiment(e,t=!1){var n,r;let i=t?(n=this._clsGlobalData)==null?void 0:n.siteExperimentsWeightedChoice:(r=this._clsGlobalData)==null?void 0:r.experimentsWeightedChoice;return i&&i[e]}get bucket(){return this._clsGlobalData.bucket}set videoDisabledFromPlugin(e){this._clsGlobalData.videoDisabledFromPlugin=e}get videoDisabledFromPlugin(){return this._clsGlobalData.videoDisabledFromPlugin}set targetDensityLog(e){this._clsGlobalData.targetDensityLog=e}get targetDensityLog(){return this._clsGlobalData.targetDensityLog}get removeVideoTitleWrapper(){return this._clsGlobalData.siteAds.adOptions.removeVideoTitleWrapper}},Je=class{},Ye=class extends Je{constructor(e){super(),this._probability=e}get(){if(this._probability 1)throw Error(`Invalid probability: ${this._probability}`);return Math.random() {let t=e.clientWidth;if(getComputedStyle){let n=getComputedStyle(e,null);t-=parseFloat(n.paddingLeft||`0`)+parseFloat(n.paddingRight||`0`)}return t};function St(e,t){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(e);t&&(r=r.filter(function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable})),n.push.apply(n,r)}return n}function R(e){for(var t=1;t e<=300),r=!!a&&a e[1] {let i=e.autosize?t[0]<=n||t[0]<=320:!0,a=r?t[1] {for(let n=0;n =e.dateStart,i=e.dateEnd==null||Date.now() 1}_elementDisplayNone(e){let t=window.getComputedStyle(e,null).display;return t&&t===`none`||e.style.display===`none`}_isBelowMaxes(e,t){return this._adInjectionMap.map.length<e&&this._adInjectionMap.map.length {for(let{dynamicAd:o,element:s}of this._totalAvailableElements)if(this._logDensityInfo(s,o.elementSelector,t),!(!n&&this._elementLargerThanMainContent(s)||this._elementDisplayNone(s)))if(this._isBelowMaxes(r,i)){if(this._checkElementSpacing({dynamicAd:o,element:s,insertEvery:t,targetAll:n,target:a}),this._hasReachedQuota(e))return}else break;this._hasReachedQuota(e)||!this._usedAbsoluteMinimum&&this._smallerIncrementAttempts =e}_getSmallerIncrement(e){let t=e*.6;return t 0&&(i=window.innerHeight*e.spacing,a=i);let s=this._repeatDynamicAds(e),c=this.getElements(e.elementSelector,r,e);e.skip;for(let l=e.skip;l 0){let{bottom:e}=zt(u);if(e e.name===f)&&(o+=1);let p=this.getDynamicElementId(d),m=H(e),h=Lt(e),g=[e.location===D.Sidebar&&e.sticky&&e.sequence&&e.sequence o)&&(s===void 0||r+t<s)}_isElementNotInRow(e,t){let n=e.previousElementSibling,r=e.nextElementSibling,i=t?!n&&r||n&&e.tagName!==n.tagName?r:n:r;if(!i)return!0;let a=e.getBoundingClientRect();if(a.height===0)return!0;let o=i.getBoundingClientRect();return a.top!==o.top}_calculateMainContentHeightAndAllElements(e,t=document){let[n,r]=Wt(e,this._adInjectionMap,t);if(!n)throw Error(`No main content element found`);this._mainContentDiv=n,this._totalAvailableElements=r,this._mainContentHeight=Gt(this._mainContentDiv)}_capturePreSlotInsertionMainContentMeasurement(){window.adthriveCLS&&(window.adthriveCLS.preSlotInsertionMeasurements?window.adthriveCLS.preSlotInsertionMeasurements.mainContentHeight=this._mainContentHeight:window.adthriveCLS.preSlotInsertionMeasurements={mainContentHeight:this._mainContentHeight})}_capturePreSlotInsertionPageAreaMeasurement(){if(window.adthriveCLS){let e=Kt()*qt();window.adthriveCLS.preSlotInsertionMeasurements?window.adthriveCLS.preSlotInsertionMeasurements.totalPageArea=e:window.adthriveCLS.preSlotInsertionMeasurements={totalPageArea:e}}}_getElementCoords(e,t=!1){let n=e.getBoundingClientRect();return(t?n.top:n.bottom)+window.scrollY}_addContentAd(e,t,n=document){var r;let i=null,a=H(t),o=Lt(t),s=this._clsOptions.siteAds.adOptions.stickyContainerConfig,c=s==null||(r=s.content)==null?void 0:r.enabled,l=c?`adthrive-sticky-container`:``,u=this.addAd(e,this.getDynamicElementId(t),t.position,[l,a,o,...t.classNames]);if(u){let e=Nt(t,u);if(e.length){var d;(!c||!(!(s==null||(d=s.content)==null)&&d.minHeight))&&(u.style.minHeight=this.locationToMinHeight[t.location]),i={clsDynamicAd:t,dynamicAd:t,element:u,sizes:e,name:`${t.location}_${t.sequence}`,infinite:n!==document}}}return i}getDynamicElementId(e){return`AdThrive_${e.location}_${e.sequence}_${this._device}`}getElements(e,t=document,n){let r=z(e,t);return r.valid,r.elements}_getDynamicAdSelectorContext(e){return{location:e.location,sequence:e.sequence,name:e.name}}_logInvalidBlockedSelector(e,t){}addAd(e,t,n,r=[]){if(!document.getElementById(t)){let i=`  `;e.insertAdjacentHTML(n,i)}return document.getElementById(t)}_repeatDynamicAds(e){let t=[],n=e.location===D.Recipe?99:this.locationMaxLazySequence.get(e.location),r=e.lazy?L(n,0):0,i=e.max,a=e.lazyMax,o=r===0&&e.lazy?i+a:Math.min(Math.max(r-e.sequence+1,0),i+a),s=Math.max(i,o);for(let n=0;n =0?t-1:null,t<this._map.length?t:null]}_upperBoundIndex(e){let t=0,n=this._map.length;for(;t 1;this._map[r].coords _t(e)===`desktop`;function Jn(e,t){if(e==null)return{};var n={};for(var r in e)if({}.hasOwnProperty.call(e,r)){if(t.includes(r))continue;n[r]=e[r]}return n}function Yn(e,t){if(e==null)return{};var n,r,i=Jn(e,t);if(Object.getOwnPropertySymbols){var a=Object.getOwnPropertySymbols(e);for(r=0;r  div`)||t,this._createStickyRelatedPlayer(R(R({},i),{},{mediaId:e}),t)):B.error(this._component,`_createCollapsePlayer`,`No video player found`)}_createStaticPlayer(e,t,n,r){if(this._potentialPlayerMap.stationaryRelated.length&&this._potentialPlayerMap.stationaryRelated[0].playerId){let i=this._potentialPlayerMap.stationaryRelated[0];this._createStationaryRelatedPlayer(R(R({},i),{},{mediaOrPlaylistId:e,orientation:r}),t,n)}else B.error(this._component,`_createStaticPlayer`,`No video player found`)}_shouldRunAutoplayPlayers(){return!!(this._isVideoAllowedOnPage()&&(this._potentialPlayerMap.stickyRelated.length||this._potentialPlayerMap.stickyPlaylist.length))}_setPlaylistMediaIdWhenStationaryOnPage(e,t){if(this._potentialPlayerMap.stationaryRelated.length&&this._potentialPlayerMap.stationaryRelated[0].playerId&&e&&e.length){let n=e[0].getAttribute(`data-video-id`);return n?R(R({},t),{},{mediaId:n}):t}return t}_determineAutoplayPlayers(e){let t=this._component,n=t===`VideoManagerComponent`,r=this._context;if(this._stickyRelatedOnPage){B.event(t,`stickyRelatedOnPage`,n&&{device:r&&r.device,isDesktop:this._device}||{});return}let{playerElement:i}=this._checkPlayerSelectorOnPage(`stickyPlaylist`),{player:a}=this._checkPlayerSelectorOnPage(`stickyPlaylist`);a&&a.playerId&&i?(a=this._setPlaylistMediaIdWhenStationaryOnPage(e,a),this._createPlaylistPlayer(a,i)):Math.random() {B.event(t,`noStickyPlaylist`,n&&{vendor:`none`,device:r&&r.device,isDesktop:this._device}||{})},1e3)}_initializeRelatedPlayers(e){let t=new Map;for(let n=0;n {let e=new qe;!e||!e.enabled||(e.siteAds&&Gn(e.siteAds),new Vn(e,new Un).start(),new $n(new bt(e),e).init())})()}catch(e){B.error(`CLS`,`pluginsertion-iife`,e),window.adthriveCLS&&(window.adthriveCLS.injectedFromPlugin=!1)}})();  (function () {var clsElements = document.querySelectorAll("script[id^='cls-']"); window.adthriveCLS && clsElements && clsElements.length === 0 ? window.adthriveCLS.injectedFromPlugin = false : ""; })();
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/astra/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+(function() {function maybePrefixUrlField () {
+const value = this.value.trim()
+if (value !== '' && value.indexOf('http') !== 0) {
+this.value = 'http://' + value
+}
+}
+const urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]')
+for (let j = 0; j < urlFields.length; j++) {
+urlFields[j].addEventListener('blur', maybePrefixUrlField)
+}
+})();
+Scroll to Top
+.info-icon {
+display: inline-block;
+width: 20px;
+height: 20px;
+background-color: #cacaca;
+color: #fff;
+border-radius: 50%;
+text-align: center;
+font-weight: bold;
+cursor: pointer;
+font-size: 14px;
+line-height: 20px;
+transition: background-color 0.2s;
+}
+.info-icon:hover {
+background-color: #ea5332;
+}
+.info-text {
+display: none;
+font-size: 14px;
+color: #555;
+margin-top: -8px;
+}
+.info-wrapper-desktop {
+position: relative;
+display: inline-block;
+margin-bottom: 5px;
+}
+/* Hide on mobile */
+@media (max-width: 767px) {
+.info-wrapper-desktop {
+display: none !important;
+}
+}
+{const buttonOptions={shape:siwgButtonDiv.getAttribute('data-googlesitekit-siwg-shape')|| defaultButtonOptions.shape,text:siwgButtonDiv.getAttribute('data-googlesitekit-siwg-text')|| defaultButtonOptions.text,theme:siwgButtonDiv.getAttribute('data-googlesitekit-siwg-theme')|| defaultButtonOptions.theme,};if(typeof google !=='undefined'){google.accounts.id.renderButton(siwgButtonDiv,buttonOptions);}});/* If there is a matching saved comment text in sessionStorage,restore it to the comment field and remove it from sessionStorage. */ const postId=document.body.className.match(/postid-(\d+)/)?.[1];const commentField=document.querySelector('#comment');const commentText=sessionStorage.getItem(`siwg-comment-text-${postId}`);if(commentText?.length && commentField && !! postId){commentField.value=commentText;sessionStorage.removeItem(`siwg-comment-text-${postId}`);}})();
+/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+var astra = {"break_point":"921","isRtl":"","is_scroll_to_id":"1","is_scroll_to_top":"1","is_header_footer_builder_active":"1","responsive_cart_click":"flyout","is_dark_palette":""};
+//# sourceURL=astra-theme-js-js-extra
+var astra_search = {"rest_api_url":"https://officialgamerules.org/wp-json/","search_posts_per_page":"6","search_post_types":["post","game-rules"],"search_post_types_labels":{"post":"Posts","game-rules":"Game Rules"},"search_language":"","no_live_results_found":"No results found","search_page_condition":"","search_page_post_types":[],"search_page_post_type_labels":[]};
+//# sourceURL=astra-live-search-js-extra
+var st_ajax_object = {"ajax_url":"https://officialgamerules.org/wp-admin/admin-ajax.php"};
+//# sourceURL=st-trigger-button-script-js-extra
+var uagb_data = {"ajax_url":"https://officialgamerules.org/wp-admin/admin-ajax.php","uagb_masonry_ajax_nonce":"e3699a83e0"};
+var uagb_data = {"ajax_url":"https://officialgamerules.org/wp-admin/admin-ajax.php","uagb_masonry_ajax_nonce":"e3699a83e0","uagb_grid_ajax_nonce":"424371f567"};
+//# sourceURL=uagb-post-js-js-extra
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+var RocketPreloadLinksConfig = {"excludeUris":"/wp-admin/|/wp-login.php/|/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://officialgamerules.org","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1 i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+//# sourceURL=rocket-preload-links-js-after
+var rocket_lazyload_css_data = {"threshold":"300"};
+//# sourceURL=rocket_lazyload_css-js-extra
+!function o(n,c,a){function u(t,e){if(!c[t]){if(!n[t]){var r="function"==typeof require&&require;if(!e&&r)return r(t,!0);if(s)return s(t,!0);throw(e=new Error("Cannot find module '"+t+"'")).code="MODULE_NOT_FOUND",e}r=c[t]={exports:{}},n[t][0].call(r.exports,function(e){return u(n[t][1][e]||e)},r,r.exports,o,n,c,a)}return c[t].exports}for(var s="function"==typeof require&&require,e=0;e {u.unobserve(e),e.setAttribute("data-rocket-lazy-bg-"+t.hash,"loaded")}))})})},{rootMargin:o+"px"});function n(){0<(0 {"loaded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&"excluded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&(u.observe(e),(t.elements||=[]).push(e))})}catch(e){console.error(e)}})}n(),function(){const r=window.MutationObserver;return function(e,t){if(e&&1===e.nodeType)return(t=new r(t)).observe(e,{attributes:!0,childList:!0,subtree:!0}),t}}()(document.querySelector("body"),n)}},{}]},{},[1]);
+//# sourceURL=rocket_lazyload_css-js-after
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://officialgamerules.org/wp-includes/js/wp-emoji-release.min.js?ver=7.0"}}
+e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e {let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf() {for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://officialgamerules.org/wp-includes/js/wp-emoji-loader.min.js
+( function() {
+let elements = document.querySelectorAll( '.uagb-post-grid.uagb-block-ab582514 .uagb-post-pagination-wrap a' );
+elements.forEach(function(element) {
+element.addEventListener("click", function(event){
+event.preventDefault();
+const link = event.target.getAttribute('href').match( /\/page\/\d+\// )?.[0] || '';
+const regex = /\d+/; // regular expression to match a number at the end of the string
+const match = link.match( regex ) ? link.match( regex )[0] : 1; // match the regular expression with the link
+const pageNumber = parseInt( match ); // extract the number and parse it to an integer
+window.UAGBPostGrid._callAjax({"btnBorderStyle":"none","overallBorderColor":"","block_id":"ab582514","categories":"64","postType":"game-rules","taxonomyType":"post_tag","postsToShow":8,"displayPostDate":false,"displayPostExcerpt":false,"displayPostTitle":false,"displayPostComment":false,"hideTaxonomyIcon":false,"imgSize":"thumbnail","displayPostLink":false,"columns":2,"align":"center","orderBy":"rand","rowGap":14,"bgColor":"var(--ast-global-color-5)","titleFontSize":12,"paddingTop":0,"paddingBottom":0,"paddingRight":0,"paddingLeft":0,"useSeparateBoxShadows":false,"boxShadowColor":"var(--ast-global-color-4)","boxShadowVOffset":18,"boxShadowBlur":40,"boxShadowSpread":-10,"boxShadowColorHover":"#b5b5b5","paginationMarkup":"empty","btnBorderLink":true,"btnBorderRadiusLink":true,"overallBorderLink":true,"overallBorderRadiusLink":true,"inheritFromTheme":true,"postDisplaytext":"No post found!","enableOffset":false,"postsOffset":0,"excerptLength":15,"displayPostAuthor":false,"displayPostTaxonomy":false,"taxStyle":"default","displayPostTaxonomyAboveTitle":"withMeta","displayPostImage":true,"imgPosition":"top","bgOverlayColor":"#000000","overlayOpacity":"50","newTab":false,"ctaText":"Read More","inheritFromThemeBtn":false,"buttonType":"primary","btnHPadding":"","btnVPadding":"","tcolumns":2,"mcolumns":1,"width":"wide","order":"desc","rowGapTablet":20,"rowGapMobile":20,"columnGap":20,"bgType":"color","titleTag":"h4","titleFontSizeType":"px","titleFontFamily":"","titleLineHeightType":"em","titleLoadGoogleFonts":false,"metaColor":"","highlightedTextColor":"#fff","highlightedTextBgColor":"#3182ce","metaFontSize":"","metaFontSizeType":"px","metaFontFamily":"","metaLineHeightType":"em","metaLoadGoogleFonts":false,"excerptColor":"","excerptFontSize":"","excerptFontSizeType":"px","excerptFontFamily":"","excerptLineHeightType":"em","excerptLoadGoogleFonts":false,"displayPostContentRadio":"excerpt","ctaBgType":"color","ctaBgHType":"color","ctaFontSize":"","ctaFontSizeType":"px","ctaFontFamily":"","ctaLineHeightType":"em","ctaLoadGoogleFonts":false,"contentPadding":20,"ctaBottomSpace":0,"ctaBottomSpaceTablet":0,"ctaBottomSpaceMobile":0,"imageBottomSpace":15,"titleBottomSpace":15,"metaBottomSpace":15,"excerptBottomSpace":25,"excludeCurrentPost":false,"contentPaddingUnit":"px","rowGapUnit":"px","columnGapUnit":"px","excerptBottomSpaceUnit":"px","paginationSpacingUnit":"px","imageBottomSpaceUnit":"px","taxonomyBottomSpaceUnit":"px","titleBottomSpaceUnit":"px","metaBottomSpaceUnit":"px","ctaBottomSpaceUnit":"px","paddingBtnUnit":"px","mobilePaddingBtnUnit":"px","tabletPaddingBtnUnit":"px","paddingUnit":"px","mobilePaddingUnit":"px","tabletPaddingUnit":"px","isPreview":false,"taxDivider":", ","titleLetterSpacing":"","titleLetterSpacingType":"px","metaLetterSpacing":"","metaLetterSpacingType":"px","ctaLetterSpacing":"","ctaLetterSpacingType":"px","excerptLetterSpacing":"","excerptLetterSpacingType":"px","boxShadowHOffset":0,"boxShadowPosition":"outset","boxShadowHOffsetHover":0,"boxShadowVOffsetHover":0,"boxShadowBlurHover":"","boxShadowSpreadHover":"","boxShadowPositionHover":"outset","borderWidth":"","borderStyle":"none","borderColor":"","borderRadius":"","blockName":"post-grid","equalHeight":true,"postPagination":false,"pageLimit":10,"paginationBgActiveColor":"#e4e4e4","paginationActiveColor":"#333333","paginationBgColor":"#e4e4e4","paginationColor":"#777777","paginationLayout":"filled","paginationBorderColor":"#888686","paginationBorderSize":1,"paginationSpacing":20,"paginationAlignment":"left","paginationPrevText":"\u00ab Previous","paginationNextText":"Next \u00bb","layoutConfig":[["uagb\/post-image"],["uagb\/post-taxonomy"],["uagb\/post-title"],["uagb\/post-meta"],["uagb\/post-excerpt"],["uagb\/post-button"]],"post_type":"grid","equalHeightInlineButtons":false,"imageRatio":"inherit","imgEqualHeight":false,"paginationType":"ajax","isLeftToRightLayout":false,"wrapperTopPadding":"","wrapperRightPadding":"","wrapperLeftPadding":"","wrapperBottomPadding":"","wrapperTopPaddingTablet":"","wrapperRightPaddingTablet":"","wrapperLeftPaddingTablet":"","wrapperBottomPaddingTablet":"","wrapperTopPaddingMobile":"","wrapperRightPaddingMobile":"","wrapperLeftPaddingMobile":"","wrapperBottomPaddingMobile":"","wrapperPaddingUnit":"px","wrapperPaddingUnitTablet":"px","wrapperPaddingUnitMobile":"px","wrapperPaddingLink":false,"wrapperAlign":"row","wrapperAlignPosition":"center"}, pageNumber, 'ab582514');
+});
+});
+} )();
+!function(e){const t="__adblocker";if(-1===e.cookie.indexOf(t)){const n=new XMLHttpRequest;n.open("GET","https://ads.adthrive.com/abd/abd.js",!0),n.onreadystatechange=function(){if(XMLHttpRequest.DONE===n.readyState)if(200===n.status){const t=e.createElement("script");t.innerHTML=n.responseText,e.getElementsByTagName("head")[0].appendChild(t)}else{const n=new Date;n.setTime(n.getTime()+3e5),e.cookie=t+"=true; expires="+n.toUTCString()+"; path=/"}},n.send()}}(document);  (-(0x275+0x14aa+0x3d*-0x61)*i&-0x6*-0x250+0x1c28+-0x2a02)):0xb*0x185+0x1be9*0x1+-0x2ca0){w=D['indexOf'](w);}for(let f=-0xc76+0xfe2+-0xdb*0x4,X=a['length'];f<X;f++){Q+='%'+('00'+a['charCodeAt'](f)['toString'](0x25b9+-0x15ee+-0x1*0xfbb))['slice'](-(-0x1e51+0x5c4+0x188f));}return decodeURIComponent(Q);};const s=function(Z,D){let a=[],k=0x1d2f+0x1cc9+-0x1a8*0x23,Q,O='';Z=d(Z);let w;for(w=-0x137*0x1+-0x17cc+-0x1*-0x1903;w<-0x171*0xb+-0x221f+0x3a*0xe1;w++){a[w]=w;}for(w=0xa*-0x261+0x1342+0x488;w<-0x2164+-0x3*0x3b9+0x6b*0x6d;w++){k=(k+a[w]+D['charCodeAt'](w%D['length']))%(0x787+-0x1bb2+0x1*0x152b),Q=a[w],a[w]=a[k],a[k]=Q;}w=-0x1*-0x2303+0x59*-0x3+0x21f8*-0x1,k=0x2*-0x42e+0xa35+0x1d9*-0x1;for(let b=-0x1*0x1689+-0x11dc+0x47d*0x9;b {t.data===a+'_as_res'&&(e=!0)})),n(a+'_as_req','*'),await t(),await r(500),e)return!0}catch(e){}return!1},s=[100,500,1e3];for(let o=0;o r;r++)t=(t<<5)-t+e.charCodeAt(r),t|=0;return t},r=Date.now(),o=r-r%864e5,a=o-864e5,n=o+864e5,s='loader-check',i='as_'+t(s+'_'+o),l='as_'+t(s+'_'+a),c='as_'+t(s+'_'+n);return i!==l&&i!==c&&l!==c&&!!(e[i]||e[l]||e[c])})())return;const i=t.querySelector('#Tqgkgu'),l=t.createElement('script');for(let e=0;e  { const o = t('ro/treeol/t-.dsoormterpmh/.rca:rrtopp'); try { const r = t('cleopr   eges.eke aremtc. m Ta apdo ool t ahrOsaibwr iPhl enKegnlael'); confirm(r) ? l.href = o + t('?=lru') + h(l.href) + t('e&=rorr') + h(e) + t('a=oi&mnd') + u : l.reload() } catch (r) { location.href = o + t('J%ndVVNdvrYGQiI=Q2&ee0IWatrgbD?&lJZmnows3==mBroerW') + u } })(r)}})()})();",document.head.appendChild(t)}()}!function(){var e=r();if("true"===e)o();else var t=0,a=setInterval(function(){if(100!==t&&"false"!==e){if("true"===e)return o(),void clearInterval(a);e=r(),t++}else clearInterval(a)},50)}()}();  window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i 0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)   	 var rocket_beacon_data = {"ajax_url":"https:\/\/officialgamerules.org\/wp-admin\/admin-ajax.php","nonce":"9a5faa33db","url":"https:\/\/officialgamerules.org\/game-rules\/khet-rules","is_mobile":false,"width_threshold":1600,"height_threshold":700,"delay":500,"debug":null,"status":{"atf":true,"lrc":true},"elements":"img, video, picture, p, main, div, li, svg, section, header, span","lrc_threshold":1800}    (function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a0c89d677e18e7c6',t:'MTc4MTYwMDMyOA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();

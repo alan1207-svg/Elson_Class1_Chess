@@ -71,7 +71,15 @@
             
             <div class="toggle-container">
               <label class="switch">
-                <input type="checkbox" id="bomb-mode-toggle">
+                <input type="radio" name="chess-variant" id="standard-mode-toggle" checked>
+                <span class="slider round"></span>
+              </label>
+              <span class="standard-label">Standard Chess ♟️</span>
+            </div>
+            
+            <div class="toggle-container">
+              <label class="switch">
+                <input type="radio" name="chess-variant" id="bomb-mode-toggle">
                 <span class="slider round"></span>
               </label>
               <span class="bomb-label">Bomb Mode 💣</span>
@@ -79,7 +87,7 @@
             
             <div class="toggle-container">
               <label class="switch">
-                <input type="checkbox" id="snowball-mode-toggle">
+                <input type="radio" name="chess-variant" id="snowball-mode-toggle">
                 <span class="slider round snowball-slider"></span>
               </label>
               <span class="snowball-label">Snowball Mode ⛄</span>

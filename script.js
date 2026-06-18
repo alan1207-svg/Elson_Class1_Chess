@@ -93,6 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const modalTitle = document.getElementById('modal-title');
   const modalMessage = document.getElementById('modal-message');
   const modeSelect = document.getElementById('game-mode');
+  const standardToggle = document.getElementById('standard-mode-toggle');
   const bombToggle = document.getElementById('bomb-mode-toggle');
   const snowballToggle = document.getElementById('snowball-mode-toggle');
   
@@ -145,9 +146,15 @@ document.addEventListener('DOMContentLoaded', () => {
       gameMode = e.target.value;
       if (gameMode === 'laser-pvp') {
          if (rotateControls) rotateControls.classList.remove('hidden');
+         if (standardToggle) standardToggle.disabled = true;
+         if (bombToggle) bombToggle.disabled = true;
+         if (snowballToggle) snowballToggle.disabled = true;
          laserGame.reset();
       } else {
          if (rotateControls) rotateControls.classList.add('hidden');
+         if (standardToggle) standardToggle.disabled = false;
+         if (bombToggle) bombToggle.disabled = false;
+         if (snowballToggle) snowballToggle.disabled = false;
          game.reset();
       }
       initBoard();
@@ -158,30 +165,19 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  if (bombToggle) {
-    bombToggle.addEventListener('change', (e) => {
-      if (e.target.checked && snowballToggle && snowballToggle.checked) {
-        snowballToggle.checked = false;
-        isSnowballMode = false;
-        updateStatus();
-      }
-    });
+  function handleVariantChange() {
+    isSnowballMode = snowballToggle && snowballToggle.checked;
+    if (isSnowballMode) {
+      snowballSeriesTurn = 1;
+      snowballMovesRemaining = 1;
+      snowballCurrentPlayer = game.turn();
+    }
+    updateStatus();
   }
 
-  if (snowballToggle) {
-    snowballToggle.addEventListener('change', (e) => {
-      isSnowballMode = e.target.checked;
-      if (isSnowballMode) {
-        if (bombToggle && bombToggle.checked) {
-          bombToggle.checked = false;
-        }
-        snowballSeriesTurn = 1;
-        snowballMovesRemaining = 1;
-        snowballCurrentPlayer = game.turn();
-      }
-      updateStatus();
-    });
-  }
+  if (standardToggle) standardToggle.addEventListener('change', handleVariantChange);
+  if (bombToggle) bombToggle.addEventListener('change', handleVariantChange);
+  if (snowballToggle) snowballToggle.addEventListener('change', handleVariantChange);
 
   const pieceTheme = {
     'p': 'https://upload.wikimedia.org/wikipedia/commons/c/c7/Chess_pdt45.svg',
@@ -526,6 +522,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function processLaserTurn() {
+    if (modeSelect) modeSelect.disabled = true;
     clearSelection();
     updateBoard();
     drawLaserBeam();
@@ -581,6 +578,7 @@ document.addEventListener('DOMContentLoaded', () => {
        }
        
        if (step.type === 'destroy') {
+           playExplosionSound();
            sqEl.classList.add('explode-anim');
            setTimeout(() => sqEl.classList.remove('explode-anim'), 500);
        }
@@ -588,6 +586,10 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   
   function processMove(moveResult) {
+    if (modeSelect) modeSelect.disabled = true;
+    if (standardToggle) standardToggle.disabled = true;
+    if (bombToggle) bombToggle.disabled = true;
+    if (snowballToggle) snowballToggle.disabled = true;
     let exploded = false;
     if (moveResult && moveResult.captured) {
       if (bombToggle && bombToggle.checked) {
@@ -920,12 +922,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- Buttons ---
   function resetGame() {
+    if (modeSelect) modeSelect.disabled = false;
     if (gameMode === 'laser-pvp') {
       laserGame.reset();
       updateBoard();
       modal.classList.add('hidden');
       return;
     }
+    
+    if (standardToggle) standardToggle.disabled = false;
+    if (bombToggle) bombToggle.disabled = false;
+    if (snowballToggle) snowballToggle.disabled = false;
     
     game.reset();
     explosionWinner = null;
@@ -958,6 +965,12 @@ document.addEventListener('DOMContentLoaded', () => {
       explosionWinner = null;
       playMoveSound();
       updateBoard();
+      if (customFenHistory.length === 1) {
+        if (modeSelect) modeSelect.disabled = false;
+        if (standardToggle) standardToggle.disabled = false;
+        if (bombToggle) bombToggle.disabled = false;
+        if (snowballToggle) snowballToggle.disabled = false;
+      }
     }
   });
 

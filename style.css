@@ -406,6 +406,10 @@ header {
   background: var(--bg-color);
   color: var(--text-main);
 }
+.mode-select:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
 
 /* Score Tracking */
 .score-display {
@@ -541,6 +545,10 @@ input:checked + .snowball-slider {
 }
 input:checked + .slider:before {
   transform: translateX(20px);
+}
+input:disabled + .slider {
+  opacity: 0.3;
+  cursor: not-allowed;
 }
 .slider.round {
   border-radius: 24px;

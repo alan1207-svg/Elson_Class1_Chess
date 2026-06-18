@@ -93,6 +93,7 @@ class LaserChess {
     if (this.gameOver) return false;
     const piece = this.getPiece(r, c);
     if (!piece || piece.color !== this.turn) return false;
+    if (piece.type === 'king') return false;
     piece.rotation = (piece.rotation + (direction * 90) + 360) % 360;
     this.endTurn();
     return true;

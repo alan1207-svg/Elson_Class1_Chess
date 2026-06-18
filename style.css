@@ -138,6 +138,47 @@ header {
   padding: 10px;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  position: relative;
+}
+
+.board-rotate-overlay {
+  position: absolute;
+  display: flex;
+  gap: 6px;
+  z-index: 20;
+  transform: translate(-50%, -50%);
+  pointer-events: all;
+}
+
+.board-rotate-overlay.hidden {
+  display: none;
+}
+
+.rotate-btn {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  background: rgba(59, 130, 246, 0.88);
+  color: #fff;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  transition: background 0.15s ease, transform 0.1s ease;
+  user-select: none;
+}
+
+.rotate-btn:hover {
+  background: rgba(37, 99, 235, 0.95);
+  transform: scale(1.15);
+}
+
+.rotate-btn:active {
+  transform: scale(0.95);
 }
 
 .chessboard {

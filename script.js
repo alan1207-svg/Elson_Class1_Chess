@@ -145,7 +145,6 @@ document.addEventListener('DOMContentLoaded', () => {
     modeSelect.addEventListener('change', (e) => {
       gameMode = e.target.value;
       if (gameMode === 'laser-pvp') {
-         if (rotateControls) rotateControls.classList.remove('hidden');
          if (standardToggle) standardToggle.disabled = true;
          if (bombToggle) bombToggle.disabled = true;
          if (snowballToggle) snowballToggle.disabled = true;
@@ -473,6 +472,51 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // --- Board rotate overlay (on-board ↺/↻ buttons) ---
+  const boardRotateOverlay = document.getElementById('board-rotate-overlay');
+  const boardRotateLeftBtn = document.getElementById('board-rotate-left');
+  const boardRotateRightBtn = document.getElementById('board-rotate-right');
+
+  if (boardRotateLeftBtn) {
+    boardRotateLeftBtn.addEventListener('click', () => {
+      if (gameMode === 'laser-pvp' && selectedSquare) {
+        const parts = selectedSquare.split('_');
+        const r = parseInt(parts[1]), c = parseInt(parts[2]);
+        if (laserGame.rotatePiece(r, c, -1)) {
+          processLaserTurn();
+        }
+      }
+    });
+  }
+
+  if (boardRotateRightBtn) {
+    boardRotateRightBtn.addEventListener('click', () => {
+      if (gameMode === 'laser-pvp' && selectedSquare) {
+        const parts = selectedSquare.split('_');
+        const r = parseInt(parts[1]), c = parseInt(parts[2]);
+        if (laserGame.rotatePiece(r, c, 1)) {
+          processLaserTurn();
+        }
+      }
+    });
+  }
+
+  function showBoardRotateOverlay(squareId) {
+    if (!boardRotateOverlay) return;
+    const sqEl = document.querySelector(`[data-square="${squareId}"]`);
+    const boardContainer = document.querySelector('.board-container');
+    if (!sqEl || !boardContainer) return;
+    const sqRect = sqEl.getBoundingClientRect();
+    const boardRect = boardContainer.getBoundingClientRect();
+    boardRotateOverlay.style.left = (sqRect.left - boardRect.left + sqRect.width / 2) + 'px';
+    boardRotateOverlay.style.top = (sqRect.top - boardRect.top + sqRect.height / 2) + 'px';
+    boardRotateOverlay.classList.remove('hidden');
+  }
+
+  function hideBoardRotateOverlay() {
+    if (boardRotateOverlay) boardRotateOverlay.classList.add('hidden');
+  }
+
   function handleLaserSquareClick(squareId) {
     if (laserGame.gameOver) return;
     const parts = squareId.split('_');
@@ -507,6 +551,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.square').forEach(sq => sq.classList.remove('selected', 'valid-move'));
     const sqEl = document.querySelector(`[data-square="${selectedSquare}"]`);
     if (sqEl) sqEl.classList.add('selected');
+
+    showBoardRotateOverlay(selectedSquare);
 
     const fromParts = selectedSquare.split('_');
     const fromR = parseInt(fromParts[1]), fromC = parseInt(fromParts[2]);
@@ -658,6 +704,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function clearSelection() {
     selectedSquare = null;
     validMovesForSelected = [];
+    hideBoardRotateOverlay();
     renderHighlights();
   }
 

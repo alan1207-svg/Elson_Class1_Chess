@@ -1,12 +1,11 @@
-const CACHE = 'chess-v1';
+const CACHE = 'chess-v2';
 const LOCAL = [
   './index.html',
   './style.css',
   './script.js',
   './laser.js',
   './manifest.json',
-  './icons/icon-192.svg',
-  './icons/icon-512.svg',
+  './icons/icon.jpg',
 ];
 
 self.addEventListener('install', e => {

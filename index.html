@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Elson's Super Chess Game | Premium Chess</title>
   <meta name="description" content="A premium web-based chess experience.">
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1e1b4b">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Chess">
+  <link rel="apple-touch-icon" href="icons/icon-192.svg">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
   <!-- Use chess.js for game logic -->
@@ -50,6 +57,20 @@
             <button id="reset-score-btn" class="btn text-btn">Reset Score</button>
           </div>
           
+          <div class="clock-box">
+            <h3>Chess Clock</h3>
+            <div class="clock-display" style="display: flex; justify-content: space-between; align-items: center; background: rgba(0, 0, 0, 0.2); padding: 10px 15px; border-radius: 12px; margin-bottom: 15px;">
+              <div class="clock-item" id="clock-white-container" style="text-align: center; padding: 5px 10px; border-radius: 8px;">
+                <span class="clock-label" style="font-size: 0.8em; color: var(--text-muted); display: block; margin-bottom: 4px;">White</span>
+                <span id="clock-white" class="clock-value" style="font-size: 1.5em; font-weight: 700; font-variant-numeric: tabular-nums;">--:--</span>
+              </div>
+              <div class="clock-item" id="clock-black-container" style="text-align: center; padding: 5px 10px; border-radius: 8px;">
+                <span class="clock-label" style="font-size: 0.8em; color: var(--text-muted); display: block; margin-bottom: 4px;">Black</span>
+                <span id="clock-black" class="clock-value" style="font-size: 1.5em; font-weight: 700; font-variant-numeric: tabular-nums;">--:--</span>
+              </div>
+            </div>
+          </div>
+          
           <div class="status-box">
             <h3>Game Status</h3>
             <p id="game-status" class="status-text">In Progress</p>
@@ -72,6 +93,25 @@
               <option value="pvc" selected>Player vs Computer</option>
               <option value="laser-pvp">Laser Chess 🔫</option>
             </select>
+            
+            <div id="player-color-container" style="margin-top: 10px; margin-bottom: 10px;">
+              <label style="font-size: 0.9em; margin-bottom: 5px; display: block; color: var(--text-muted);">Play as:</label>
+              <select id="player-color" class="mode-select">
+                <option value="w" selected>White</option>
+                <option value="b">Black</option>
+              </select>
+            </div>
+            
+            <div style="margin-top: 10px; margin-bottom: 10px;">
+              <label style="font-size: 0.9em; margin-bottom: 5px; display: block; color: var(--text-muted);">Time Control:</label>
+              <select id="time-control" class="mode-select">
+                <option value="0" selected>Disabled</option>
+                <option value="60">1 min</option>
+                <option value="180">3 min</option>
+                <option value="300">5 min</option>
+                <option value="600">10 min</option>
+              </select>
+            </div>
             
             <div class="toggle-container">
               <label class="switch">
@@ -120,5 +160,10 @@
   </div>
   <script src="laser.js"></script>
   <script src="script.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js');
+    }
+  </script>
 </body>
 </html>

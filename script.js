@@ -96,6 +96,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const standardToggle = document.getElementById('standard-mode-toggle');
   const bombToggle = document.getElementById('bomb-mode-toggle');
   const snowballToggle = document.getElementById('snowball-mode-toggle');
+  const playerColorSelect = document.getElementById('player-color');
+  const playerColorContainer = document.getElementById('player-color-container');
   
   let isSnowballMode = false;
   let snowballSeriesTurn = 1;
@@ -109,8 +111,95 @@ document.addEventListener('DOMContentLoaded', () => {
   
   let gameMode = 'pvc';
   let explosionWinner = null;
+  let timeoutWinner = null;
   let customFenHistory = [game.fen()]; // Used for reliable undo after explosions
   let customSanHistory = []; // Used to track move history manually since game.load resets it
+
+  // Chess Clock Variables
+  const timeControlSelect = document.getElementById('time-control');
+  const clockWhiteEl = document.getElementById('clock-white');
+  const clockBlackEl = document.getElementById('clock-black');
+  const clockWhiteContainer = document.getElementById('clock-white-container');
+  const clockBlackContainer = document.getElementById('clock-black-container');
+  
+  let timeControl = 0;
+  let whiteTime = 0;
+  let blackTime = 0;
+  let timerInterval = null;
+
+  function formatTime(seconds) {
+    if (seconds <= 0) return "0:00";
+    const m = Math.floor(seconds / 60);
+    const s = seconds % 60;
+    return `${m}:${s < 10 ? '0' : ''}${s}`;
+  }
+
+  function updateClockUI() {
+    if (timeControl === 0) {
+      clockWhiteEl.textContent = "--:--";
+      clockBlackEl.textContent = "--:--";
+      clockWhiteContainer.classList.remove('active');
+      clockBlackContainer.classList.remove('active');
+      clockWhiteEl.classList.remove('low-time');
+      clockBlackEl.classList.remove('low-time');
+      return;
+    }
+    
+    clockWhiteEl.textContent = formatTime(whiteTime);
+    clockBlackEl.textContent = formatTime(blackTime);
+    
+    if (whiteTime <= 10 && whiteTime > 0) clockWhiteEl.classList.add('low-time');
+    else clockWhiteEl.classList.remove('low-time');
+    
+    if (blackTime <= 10 && blackTime > 0) clockBlackEl.classList.add('low-time');
+    else clockBlackEl.classList.remove('low-time');
+
+    let currentTurn = (gameMode === 'laser-pvp') ? laserGame.turn : game.turn();
+    
+    if (game.game_over() || explosionWinner || timeoutWinner || (gameMode === 'laser-pvp' && laserGame.gameOver)) {
+        clockWhiteContainer.classList.remove('active');
+        clockBlackContainer.classList.remove('active');
+    } else {
+        if (currentTurn === 'w') {
+          clockWhiteContainer.classList.add('active');
+          clockBlackContainer.classList.remove('active');
+        } else {
+          clockBlackContainer.classList.add('active');
+          clockWhiteContainer.classList.remove('active');
+        }
+    }
+  }
+
+  function stopTimer() {
+    if (timerInterval) clearInterval(timerInterval);
+    timerInterval = null;
+  }
+
+  function startTimer() {
+    stopTimer();
+    if (timeControl === 0) return;
+    if (game.game_over() || explosionWinner || timeoutWinner || (gameMode === 'laser-pvp' && laserGame.gameOver)) return;
+
+    timerInterval = setInterval(() => {
+      let currentTurn = (gameMode === 'laser-pvp') ? laserGame.turn : game.turn();
+      if (currentTurn === 'w') {
+         whiteTime--;
+         if (whiteTime <= 0) {
+            whiteTime = 0;
+            timeoutWinner = 'Black';
+            checkGameOver();
+         }
+      } else {
+         blackTime--;
+         if (blackTime <= 0) {
+            blackTime = 0;
+            timeoutWinner = 'White';
+            checkGameOver();
+         }
+      }
+      updateClockUI();
+    }, 1000);
+  }
 
   // Helper to ensure FEN is always valid for chess.js to parseload, 
   // because explosions can remove rooks/kings without updating castling/ep rights in chess.js internals
@@ -144,6 +233,9 @@ document.addEventListener('DOMContentLoaded', () => {
   if (modeSelect) {
     modeSelect.addEventListener('change', (e) => {
       gameMode = e.target.value;
+      if (playerColorContainer) {
+         playerColorContainer.style.display = gameMode === 'pvc' ? 'block' : 'none';
+      }
       if (gameMode === 'laser-pvp') {
          if (standardToggle) standardToggle.disabled = true;
          if (bombToggle) bombToggle.disabled = true;
@@ -158,10 +250,23 @@ document.addEventListener('DOMContentLoaded', () => {
       }
       initBoard();
       
-      if (gameMode === 'pvc' && game.turn() === 'b' && !game.game_over() && !explosionWinner) {
+      const pColor = playerColorSelect ? playerColorSelect.value : 'w';
+      if (gameMode === 'pvc' && game.turn() !== pColor && !game.game_over() && !explosionWinner) {
         setTimeout(makeBestMove, 250);
       }
     });
+  }
+
+  if (playerColorSelect) {
+     playerColorSelect.addEventListener('change', () => {
+         resetGame();
+     });
+  }
+  
+  if (timeControlSelect) {
+     timeControlSelect.addEventListener('change', () => {
+         resetGame();
+     });
   }
 
   function handleVariantChange() {
@@ -220,11 +325,12 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     } else {
       boardEl.classList.remove('laser-board');
+      const isFlipped = gameMode === 'pvc' && playerColorSelect && playerColorSelect.value === 'b';
       const files = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
       for (let r = 0; r < 8; r++) {
         for (let c = 0; c < 8; c++) {
-          const rank = 8 - r;
-          const file = files[c];
+          const rank = isFlipped ? r + 1 : 8 - r;
+          const file = isFlipped ? files[7 - c] : files[c];
           const squareId = file + rank;
           const square = document.createElement('div');
           square.className = `square ${(r + c) % 2 === 0 ? 'light' : 'dark'}`;
@@ -382,8 +488,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- Interaction Logic ---
   function handleSquareClick(squareId) {
-    if (game.game_over() || explosionWinner) return;
-    if (gameMode === 'pvc' && game.turn() === 'b') return;
+    if (game.game_over() || explosionWinner || timeoutWinner) return;
+    const pColor = playerColorSelect ? playerColorSelect.value : 'w';
+    if (gameMode === 'pvc' && game.turn() !== pColor) return;
 
     if (selectedSquare) {
       const moveResult = game.move({ from: selectedSquare, to: squareId, promotion: 'q' });
@@ -404,8 +511,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function handleDragStart(e, squareId, pieceEl) {
-    if (game.game_over() || explosionWinner) return e.preventDefault();
-    if (gameMode === 'pvc' && game.turn() === 'b') return e.preventDefault();
+    if (game.game_over() || explosionWinner || timeoutWinner) return e.preventDefault();
+    const pColor = playerColorSelect ? playerColorSelect.value : 'w';
+    if (gameMode === 'pvc' && game.turn() !== pColor) return e.preventDefault();
     const piece = game.get(squareId);
     if (!piece || piece.color !== game.turn()) return e.preventDefault();
 
@@ -552,10 +660,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const sqEl = document.querySelector(`[data-square="${selectedSquare}"]`);
     if (sqEl) sqEl.classList.add('selected');
 
-    showBoardRotateOverlay(selectedSquare);
-
     const fromParts = selectedSquare.split('_');
     const fromR = parseInt(fromParts[1]), fromC = parseInt(fromParts[2]);
+
+    const piece = laserGame.getPiece(fromR, fromC);
+    if (piece && piece.type !== 'king') {
+        showBoardRotateOverlay(selectedSquare);
+    } else {
+        hideBoardRotateOverlay();
+    }
 
     for (let r = 0; r < 8; r++) {
       for (let c = 0; c < 10; c++) {
@@ -572,10 +685,12 @@ document.addEventListener('DOMContentLoaded', () => {
     clearSelection();
     updateBoard();
     drawLaserBeam();
+    updateClockUI();
     if (laserGame.gameOver) {
        modalTitle.textContent = "Laser Chess Over!";
        modalMessage.textContent = `${laserGame.winner} wins by destroying the King.`;
        modal.classList.remove('hidden');
+       stopTimer();
     }
   }
 
@@ -678,8 +793,10 @@ document.addEventListener('DOMContentLoaded', () => {
     clearSelection();
     updateBoard();
     checkGameOver();
+    updateClockUI();
     
-    if (gameMode === 'pvc' && !game.game_over() && !explosionWinner && game.turn() === 'b') {
+    const pColor = playerColorSelect ? playerColorSelect.value : 'w';
+    if (gameMode === 'pvc' && !game.game_over() && !explosionWinner && !timeoutWinner && game.turn() !== pColor) {
       setTimeout(makeBestMove, 250);
     }
   }
@@ -748,6 +865,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (explosionWinner) {
       status = `Game over, ${explosionWinner} wins by Explosion!`;
+    } else if (timeoutWinner) {
+      status = `Game over, ${timeoutWinner} wins on time!`;
     } else if (game.in_checkmate()) {
       status = `Game over, ${turn} is in checkmate.`;
     } else if (game.in_draw()) {
@@ -808,7 +927,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let message = "";
     let over = false;
 
-    if (explosionWinner) {
+    if (timeoutWinner) {
+      title = "Time's Up!";
+      message = `${timeoutWinner} wins on time.`;
+      if (timeoutWinner === 'White') scoreWhite++; else scoreBlack++;
+      over = true;
+    } else if (explosionWinner) {
       title = "BOOM! Checkmate!";
       message = `${explosionWinner} wins the game by explosion.`;
       if (explosionWinner === 'White') scoreWhite++; else scoreBlack++;
@@ -836,6 +960,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (over) {
+      stopTimer();
       updateScoreUI();
       modalTitle.textContent = title;
       modalMessage.textContent = message;
@@ -930,7 +1055,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function makeBestMove() {
-    if (game.game_over() || explosionWinner) return;
+    if (game.game_over() || explosionWinner || timeoutWinner) return;
     const possibleMoves = game.moves();
     if (possibleMoves.length === 0) return;
 
@@ -969,11 +1094,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- Buttons ---
   function resetGame() {
+    document.querySelectorAll('.laser-beam').forEach(el => el.remove());
+    
+    timeControl = timeControlSelect ? parseInt(timeControlSelect.value, 10) : 0;
+    whiteTime = timeControl;
+    blackTime = timeControl;
+    timeoutWinner = null;
+    stopTimer();
+    updateClockUI();
+    
     if (modeSelect) modeSelect.disabled = false;
     if (gameMode === 'laser-pvp') {
       laserGame.reset();
       updateBoard();
       modal.classList.add('hidden');
+      if (timeControl > 0) startTimer();
       return;
     }
     
@@ -991,8 +1126,15 @@ document.addEventListener('DOMContentLoaded', () => {
     snowballMovesRemaining = 1;
     snowballCurrentPlayer = 'w';
     
-    updateBoard();
+    initBoard();
     modal.classList.add('hidden');
+    
+    if (timeControl > 0) startTimer();
+    
+    const pColor = playerColorSelect ? playerColorSelect.value : 'w';
+    if (gameMode === 'pvc' && game.turn() !== pColor) {
+      setTimeout(makeBestMove, 250);
+    }
   }
 
   document.getElementById('reset-btn').addEventListener('click', resetGame);

@@ -65,6 +65,9 @@ class LaserChess {
     const dc = Math.abs(toC - fromC);
     if (dr > 1 || dc > 1 || (dr === 0 && dc === 0)) return false;
     
+    // King should not be able to move left and right (horizontally)
+    if (piece.type === 'king' && dr === 0) return false;
+    
     const targetPiece = this.getPiece(toR, toC);
     if (targetPiece) {
         if (piece.type === 'switch' && (targetPiece.type === 'deflector' || targetPiece.type === 'defender')) {

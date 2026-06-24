@@ -692,3 +692,26 @@ input:disabled + .slider {
   color: var(--text-muted);
   margin-bottom: 2rem;
 }
+
+/* Clock Styling */
+.clock-item {
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.clock-item.active {
+  background: rgba(59, 130, 246, 0.15);
+  border-color: var(--accent);
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
+}
+
+.clock-value.low-time {
+  color: #ef4444 !important;
+  animation: pulse-red 1s infinite;
+}
+
+@keyframes pulse-red {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); text-shadow: 0 0 10px rgba(239, 68, 68, 0.6); }
+  100% { transform: scale(1); }
+}

@@ -1,6 +1,6 @@
 {
   "name": "Elson's Super Chess Game",
-  "short_name": "Chess",
+  "short_name": "Elson's Chess",
   "description": "Chess and Laser Chess with Bomb and Snowball modes",
   "start_url": "./index.html",
   "scope": "./",
